@@ -50,7 +50,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/token/token.txt"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
       "key": "PanSou",
@@ -60,7 +60,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/token/token.txt"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
       "key": "七夜",
@@ -70,7 +70,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/token/token.txt"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
       "key": "优酷",
