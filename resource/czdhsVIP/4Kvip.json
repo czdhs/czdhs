@@ -37,7 +37,7 @@
       "key": "csp_woggcli",
       "name": "🐼4KHDR┃T4站-A",
       "type": 4,
-      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=8e14121f900f4bdfb861306f7a67b17c",
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=76440bce458b40108f3c9b957566341d",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -50,7 +50,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+      "ext": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/token/token.txt"
     },
     {
       "key": "PanSou",
@@ -60,7 +60,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+      "ext": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/token/token.txt"
     },
     {
       "key": "七夜",
@@ -70,7 +70,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+      "ext": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/token/token.txt"
     },
     {
       "key": "优酷",
@@ -316,7 +316,7 @@
           "奇艺",
           "youku",
           "yk","优
-酷","mgtv","imgo","芒果"]}},{"name": "拾光探","type": 0,"url": "https://jx.xmflv.com/?url="
+酷","mgtv","imgo","芒果"]}},{"name": "拾光探","type": 0,"url": "https: //jx.xmflv.com/?url="
         },
         {
           "name": "拾光7777",
@@ -366,7 +366,7 @@
               "优酷",
               "mgtv",
               "imgo","
-芒果"]}},{"name": "天微战狼","type": 0,"url": "https://jx.zhanlangbu.com/?url="
+芒果"]}},{"name": "天微战狼","type": 0,"url": "https: //jx.zhanlangbu.com/?url="
             },
             {
               "name": "拾光夜幕嗅探",
