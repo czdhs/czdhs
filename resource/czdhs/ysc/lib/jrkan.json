@@ -17,7 +17,7 @@
     //"cateVodName": "/li[@class='lab_events']/span/text()",
     "cateVodName": "concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text(),'dj')",
     "cateVodId": "/li[@class='lab_channel']/a[2]/@href",
-    "cateVodIdR": "http://m.sportsteam685.com/play/(\\S+)",
+    "cateVodIdR": "http://m.sportsteam1234.com/play/(\\S+)",
 	//"cateVodIdR": "\\S+/(\\d+).html",
     "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
     "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
@@ -25,7 +25,7 @@
 	"cate": "dj",
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
     //"dtUrl": "{vid}",
-	"dtUrl": "http://play.sportsteam685.com/play/{vid}",
+	"dtUrl": "http://play.sportsteam1234.com/play/{vid}",
 	// 详情节点
     "dtNode": "//ul[@data-stype='zqlq']",
 	// 视频名
@@ -62,7 +62,7 @@
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     //"playUrl":"http://play.sportsteam333.com/play/{playUrl}#ff",
-    "playUrl":"http://play.sportsteam685.com/play/{playUrl}"
+    "playUrl":"http://play.sportsteam1234.com/play/{playUrl}"
     //"playUrl": "http://play.sportsteam365.com/play/{playUrl}"
     //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36", 
     //"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
@@ -93,7 +93,7 @@
 <script>
     disp_prompt();
     function disp_prompt(){             
-        confirm("ƪ(˘⌣˘)ʃ  备用域名1: www.jrkan2023.com  备用域名2: www.jrskan8.com 网址发布:www.qiumi1314.com");        
+        confirm("ƪ(˘⌣˘)ʃ  备用域名1: www.jrsbxj.com  备用域名2: www.jrskan8.com 网址发布:www.qiumi1314.com");        
     }
 </script>
 <div class="web_phone">
@@ -105,10 +105,10 @@
 </div>
 <ul class="sub_menu">
 <li class="item icon_download"><a href="http://www.jrskan8.com"><em class="icon-facetime-video"></em>返回首页</a></li>
-<li class="item icon_download"><a href="http://www.jrkan2023.com" target="_blank"><em class="icon-facetime-video"></em>www.jrkan2023.com</a></li>
+<li class="item icon_download"><a href="http://www.jrsbxj.com" target="_blank"><em class="icon-facetime-video"></em>www.jrsbxj.com</a></li>
 <li class="item icon_download"><a href="http://www.jrskan8.com" target="_blank"><em class="icon-facetime-video"></em>www.jrskan8.com</a></li>
 </ul>
-<ul class="sub_url"><li><span class="only-pc">按 Ctrl + D 收藏</span>本站网址：<b>www.jrkan2023.com</b></li><li><b>www.jrkan666.com</b></li></ul>
+<ul class="sub_url"><li><span class="only-pc">按 Ctrl + D 收藏</span>本站网址：<b>www.jrsbxj.com</b></li><li><b>www.jrkan666.com</b></li></ul>
 </div>
 </div>
 <div class="web_content"><div class="web_body">
@@ -127,9 +127,9 @@
 <div class="sub_box" style="margin-top: -233px; padding-top: 233px;">
 <div class="sub_head loc_match">
 <div class="sub_list" style="color:#004eff " font-size: 17px;>
-JRKAN备用域名:www.jrkan2023.com www.jrskan8.com 网址发布:www.qiumi1314.com
+JRKAN备用域名:www.jrsbxj.com www.jrskan8.com 网址发布:www.qiumi1314.com
 <div class="loc_banner only-app">
-<div class="sub_img active" onclick="window.open('https://qmt2.chat66.cc')" style="background-image:url(http://play.sportsteam357.com/play/f03e4126-5625-491e-b66d-c6c6f0650987.JPG?t_=3);"></div>
+<div class="sub_img active" onclick="window.open('https://qmt2.chat66.cc')" style="background-image:url(http://play.sportsteam1234.com/play/f03e4126-5625-491e-b66d-c6c6f0650987.JPG?t_=3);"></div>
 </div>
 <ul class="item active" data-lid="3852728,1,3852728" data-stype="zqlq">
 <li class="lab_events" style="color:#669900 "><span class="name">墨西超</span></li>

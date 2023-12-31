@@ -1,10 +1,10 @@
-{
+﻿{
   "spider": "./PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb",
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🐼┃豆瓣┃微信公众号：肥猫宝贝",
+      "name": "🐼┃豆瓣┃微信公众号：拾光追随者",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -24,14 +24,13 @@
       "name": "💓┃短剧┃视频",
       "type": 3,
       "api": "csp_Panda",
-      "ext": "分类url:https://532kan.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html,分类:短剧$23,首页:短剧$16"
+      "ext": "分类url:http://admin.532kan.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html,分类:短剧$23,首页:短剧$16"
     },
     {
       "key": "种子短剧",
       "name": "💮┃短剧┃视频",
-      "type": 3,
-      "api": "csp_Panda",
-      "ext": "分类url:http://web.zzdj.cc/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html,分类:快手$2#抖音$3#都市$4#古装$5#重生$6#逆袭$7#虐恋$8#萌宝$9#言情$10#穿越$11#战神$12#神医$13#赘婿$14#甜宠$15#其它$16#短剧$1"
+      "type": 1,
+      "api": "http://zzdj.cc/api.php/provide/vod"
     },
     {
       "key": "alist",
@@ -60,7 +59,7 @@
       "playerType": 2,
       "timeout": 30,
       "changeable": 0,
-      "ext": "./lib/玩偶表哥.json"
+      "ext": "./lib/玩偶哥哥.json"
     },
     {
       "key": "蜂鸟",
@@ -112,12 +111,13 @@
       "ext": "./lib/yt.js"
     },
     {
-      "key": "路人",
-      "name": "🖼┃画画┃影视",
-      "api": "csp_AppYs",
+      "key": "忍者",
+      "name": "🥷┃忍者┃影视",
+      "api": "csp_AppRZ",
       "type": 3,
       "playerType": "2",
-      "ext": "http://app.huahai.pro/ruifenglb_api.php/v1.vod"
+      "ext": "http://rzys.xyz/",
+      "jar": "./lib/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
     },
     {
       "key": "996",
@@ -248,7 +248,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "./lib/fatcat.jar;md5;B83AE169F5A991ADC48560AEEBFB0C90"
+      "jar": "./lib/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
     },
     {
       "key": "Aid",
@@ -286,7 +286,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "./lib/fatcat.jar;md5;B83AE169F5A991ADC48560AEEBFB0C90"
+      "jar": "./lib/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
     },
     {
       "key": "drpy_js_310直播",
@@ -307,7 +307,7 @@
       "api": "csp_Music",
       "searchable": 1,
       "filterable": 0,
-      "ext": "./lib/music.json",
+      "ext": "https://api.zalman2022.repl.co/music.json",
       "jar": "https://api.zalman2022.repl.co/YSZYZ.jar"
     },
     {
@@ -465,11 +465,11 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./lib/market.json",
-      "jar": "./lib/fatcat.jar;md5;B83AE169F5A991ADC48560AEEBFB0C90"
+      "jar": "./lib/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
     },
     {
       "key": "push_agent",
-      "name": "关注公众号：肥猫宝贝",
+      "name": "关注公众号：拾光追随者",
       "type": 3,
       "api": "csp_PushAgent",
       "playerType": "1",
@@ -489,7 +489,7 @@
       "url": "Web"
     },
     {
-      "name": "公众号：肥猫宝贝",
+      "name": "公众号：拾光追随者",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=bcdstvxADFJLRW0279&url=",
       "ext": {

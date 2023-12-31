@@ -1,7 +1,5 @@
 ﻿{
-
-
- "spider":"./lxhfans1.jar",
+ "spider":"./lxhfans.jar",
   "wallpaper":"https://api.likepoems.com/img/bing",
   "warningText":"公众号：乐享汇fans免费分享持续更新，更多详情见公众号文章",
   "lives": [
@@ -138,7 +136,7 @@
             "name": "玩偶┃FS",
             "type": 3,
             "api": "csp_WoGG",
-            "jar": "./lib/fan.txt",
+            "jar": "./lib/fty.jar",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -218,30 +216,34 @@
       },
       "jar": "./lib/danmu.jar"
     },
-    {
-            "key": "csp_woggcli",
-            "name": "玩偶┃T4",
-            "type": 4,
-            "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清",
+   {
+            "key": "YSC",
+            "name": "阿狸┃YS",
+            "type": 3,
+            "api": "csp_Wogg",
+            "jar":"./lib/pg.jar",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt"
-    },
+            "changeable": 0,
+            "ext": "./lib/wogg.json",
+            "timeout": 60
+     },
     {
-            "key": "小纸条_cli",
-            "name": "纸条┃T4 ",
-            "type": 4,
-            "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt",
-            "timeout": 30
+      "key": "影巢网盘",
+      "name": "阿狸┃YC",
+      "type": 3,
+      "api": "csp_Hdhive",
+      "jar":"./lib/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "./lib/PG推送.json$$$null$$$1",
+      "timeout": 60
     },
     {
       "key": "Gitcafe",
-      "name": "咖咖┃4K",
+      "name": "阿狸┃GT",
       "type": 3,
       "api": "csp_Paper",
       "searchable": 1,
@@ -251,19 +253,19 @@
       "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
     },
     {
-      "key": "影巢",
-      "name": "巢巢┃4K",
-      "type": 3,
-      "api": "csp_Hdhive",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "./lib/xry.jar",
-      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt"
+            "key": "小纸条_cli",
+            "name": "阿狸┃T4",
+            "type": 4,
+            "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt",
+            "timeout": 30
     },
     {
      "key": "csp_XBPQ_6V",
-     "name": "宝宝┃4K",
+     "name": "磁力┃BB",
      "type": 3,
      "api": "csp_XBPQ",
      "searchable": 1,
@@ -274,7 +276,7 @@
     },
     { 
       "key": "csp_XYQHiker_‍dyx", 
-      "name": "盒盒┃4K", 
+      "name": "磁力┃HH", 
       "type": 3, 
       "api": "csp_XYQHiker", 
       "searchable": 1, 
@@ -285,7 +287,7 @@
     }, 
     { 
       "key": "csp_XYQHikerlg4k", 
-      "name": "云云┃4K", 
+      "name": "磁力┃YY", 
       "type": 3, 
       "api": "csp_XYQHiker", 
       "searchable": 1, 
@@ -296,7 +298,7 @@
     }, 
     { 
       "key": "csp_XYQHiker4klg", 
-      "name": "盘盘┃4K", 
+      "name": "磁力┃PP", 
       "type": 3, 
       "api": "csp_XYQHiker", 
       "searchable": 1, 
@@ -305,33 +307,9 @@
       "jar": "./lib/spider.txt",
       "ext": "./lib/中国蓝光网.json"  
     },
- {
-      "key": "团长影视",
-      "name": "团长┃网盘",
-      "type": 3,
-      "api": "csp_TZFile",
-      "jar":"./lib/pg.jar",
-      "ext": "./lib/PG推送$$$null$$$1",
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60
-    },
-    {
-      "key": "校长影视",
-      "name": "校长┃网盘",
-      "type": 3,
-      "api": "csp_XiaoZhang",
-      "jar":"./lib/pg.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "./lib/PG推送.json$$$null$$$1",
-      "timeout": 60
-    },
-    {
+  {
       "key": "4KHDR网盘",
-      "name": "四开┃网盘",
+      "name": "磁力┃SK",
       "type": 3,
       "api": "csp_FourKHDR",
       "jar":"./lib/pg.jar",
@@ -344,7 +322,7 @@
     },
     {
       "key": "xb6v磁力",
-      "name": "六维┃网盘",
+      "name": "磁力┃LV",
       "type": 3,
       "api": "csp_Xb6v",
       "jar":"./lib/pg.jar",
@@ -355,11 +333,22 @@
       "ext": "./lib/PG推送.json$$$http://www.xb6v.com$$$null$$$1",
       "timeout": 60
     },
-    {
-      "key": "影巢网盘",
-      "name": "影巢┃网盘",
+   {
+      "key": "团长影视",
+      "name": "夸克┃TZ",
       "type": 3,
-      "api": "csp_Hdhive",
+      "api": "csp_TZFile",
+      "jar":"./lib/pg.jar",
+      "ext": "./lib/PG推送$$$null$$$1",
+      "quickSearch": 1,
+      "changeable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "校长影视",
+      "name": "夸克┃XZ",
+      "type": 3,
+      "api": "csp_XiaoZhang",
       "jar":"./lib/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
@@ -368,7 +357,74 @@
       "ext": "./lib/PG推送.json$$$null$$$1",
       "timeout": 60
     },
-   {
+ {
+          "key":"影探",
+          "name":"自营┃YT",
+          "type":3,
+          "api":"csp_AppYsV2",
+          "searchable":1,
+          "quickSearch":1,
+          "filterable":1,
+          "ext":"http://vvipcms.lyyytv.cn/api.php/app/"
+        },
+       {
+         "key":"小胡",
+         "name":"自营┃XH",
+         "type":1,
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "api":"http://c.小胡.icu/api.php/provide/vod/"
+      },
+      {
+            "key": "996影院",
+            "name": "自营┃JL",
+            "type": 3,
+            "api": "csp_Cs1369",
+            "jar":"./lib/pg.jar",
+            "searchable": 1,
+            "changeable": 0
+        },
+       {
+            "key": "4K电影采集",
+            "name": "自营┃LX ",
+            "type": 1,
+            "api": "http://d.540734621.xyz/api.php/provide/vod/",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "4K电影",
+                "国产剧",
+                "港台剧",
+                "日韩剧",
+                "欧美剧",
+                "动作片",
+                "喜剧片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "动漫",
+                "综艺",
+                "纪录片",
+                "歌舞",
+                "体育"
+            ]
+        },
+
+    {
+            "key": "csp_woggcli",
+            "name": "自营┃T4",
+            "type": 4,
+            "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt"
+    },
+       {
       "key": "sohu",
       "name": "搜搜┃(官)",
       "type": 1,
@@ -382,7 +438,7 @@
      "name":"狗狗┃(官)",
      "type":3,
      "api":"./lib/drpy2.min.js",
-     "ext":"./lib/caigou.js"
+     "ext":"http://vip.weixine.link:88/js/caigou.js"
     },
     {
       "key": "drpy_js_360影视",
@@ -685,7 +741,7 @@
     },
     {
       "key": "Up搜XB",
-      "name": "UP盘┃🍭",
+      "name": "盘寻┃🍭",
       "type": 3,
       "api": "csp_UpYun",
       "jar":"./lib/pg.jar",
@@ -799,7 +855,7 @@
     },
     {
       "key": "cc4",
-      "name": "12.19维护更新🍁🍀",
+      "name": "12.29维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -811,19 +867,16 @@
         {"name": "关注","type":3,"url":"Demo"},
         {"name": "公众号","type":2,"url":"Sequence"},
         {"name": "QQ频道","type": 3,"url": "Web"},
-        {"name": "『乐享汇fans』","type": 2,"url": "Parallel"}, 
-        {"name": "『乐享生活fans』","type": 1,"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},
-        {"name": "可可","type":0,"url":"https://www.ecmys.com/player/art.php?url="},
-        {"name": "七七","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
-        {"name": "玖玖","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
-        {"name": "彩彩","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name": "云云","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name": "米米","type":1,"url":"https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url="},
-        {"name": "巧巧","type":1,"url":"https://www.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["XAL","xinvip"]}},
-        {"name": "乐乐","type":1,"url":"http://103.42.31.123:5821/jx/?url="},
-        {"name": "途途","type":0,"url":"https://jx.yangtu.top/?url="},
-        {"name": "星星","type":0,"url":"https://jx.xmflv.com/?url="},
-        {"name": "夜夜","type":0,"url":"https://www.yemu.xyz/?url="}     
+        {"name":"『乐享汇fans』","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili","youku"]}},
+        {"name":"『乐享生活fans』","type":1,"url":"http://121.4.51.101:86/api/?key=xrRsB3wqajOWQZpbhJ&url="},
+        {"name":"乐乐","type":1,"url":"https://api.json.icu/api/?key=b1f3b1a9e1c0a42ae969db10bd315a95&url="},
+        {"name":"米米","type":1,"url":""},
+        {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili"]}},
+        {"name":"巧巧","type":1,"url":"https://www.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["XAL","xinvip"]}},
+        {"name":"星星","type":0,"url":"https://jx.xmflv.com/?url="},
+        {"name":"野野","type":0,"url":"https://jx.playerjy.com/?url="},
+        {"name":"七七","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
+        {"name":"可可","type":0,"url":"https://www.ecmys.com/player/art.php?url="}
         ],
 
 

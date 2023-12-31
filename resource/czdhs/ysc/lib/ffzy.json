@@ -1,5 +1,5 @@
     {
-    "主页url":"http://ffzy1.tv/",
+    "主页url":"http://ffzy5.tv/",
     
     "站名":"非凡资源网",
     
@@ -15,7 +15,7 @@
     
     "标题":"vod_name\"*\"&&\"",
     
-    "链接":"http://ffzy1.tv/index.php/vod/detail/id/+\"vod_id\":&&,+.html",
+    "链接":"http://ffzy5.tv/index.php/vod/detail/id/+\"vod_id\":&&,+.html",
     
     "副标题":"vod_remarks\":\"&&\"",
     
@@ -57,7 +57,7 @@
     
     "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
     
-    "分类url":"http://ffzy1.tv/index.php/ajax/data?mid=1&tid={cateId}&page={catePg}&limit=20",
+    "分类url":"http://ffzy5.tv/index.php/ajax/data?mid=1&tid={cateId}&page={catePg}&limit=20",
     
     "筛选":{
     

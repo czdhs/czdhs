@@ -1,6 +1,4 @@
-﻿
-
-{
+﻿{
     "spider": "./spider.jar",
     "lives": [
         {
@@ -13,7 +11,7 @@
     "sites": [
         {
             "key": "csp_XYQHiker_兔小贝",
-            "name": "🐰儿童城",
+            "name": "🐰兔小贝",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -24,7 +22,7 @@
         },
         {
             "key": "csp_XYQHiker_兔小贝2",
-            "name": "🐰兔小贝",
+            "name": "🐰兔儿贝",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
