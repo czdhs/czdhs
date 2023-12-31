@@ -97,10 +97,6 @@
             "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/ysc/ysc.json"
         },
         {
-            "name": "❤️运输车VIP🎈",
-            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/yscvip/yscvip.json"
-        },
-        {
             "name": "❤️心动短剧🎈",
             "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/短剧/短剧.json"
         },
@@ -143,6 +139,38 @@
         {
             "name": "❤️音乐会🎈",
             "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/yinyue/yinyue.json"
+        },
+        {
+            "name": "🎈abc🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/abc/abc.json"
+        },
+        {
+            "name": "🎈高天流云🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/gtlyjs/gtlyjs.json"
+        },
+        {
+            "name": "🎈欧歌🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/ouge/ouge.json"
+        },
+        {
+            "name": "🎈摸鱼🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/moyu/moyu.json"
+        },
+        {
+            "name": "🎈魔饭🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/mofan/mofan.json"
+        },
+        {
+            "name": "🎈骚零🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/saoling/saoling.json"
+        },
+        {
+            "name": "🎈运维世界🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/ywsj/ywsj.json"
+        },
+        {
+            "name": "🎈圆周率🎈",
+            "url": "https://gh.con.sh/https://raw.githubusercontent.com/czdhs/czdhs/main/resource/czdhs/yzl/yzl.json"
         }
     ]
 }
