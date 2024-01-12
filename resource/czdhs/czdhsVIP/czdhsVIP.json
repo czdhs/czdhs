@@ -130,7 +130,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
       "key": "AliPS",
@@ -140,7 +140,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
       "key": "Yisou",
@@ -150,7 +150,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
       "key": "Gitcafe",
@@ -160,7 +160,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     }
   ],
   "parses": [
