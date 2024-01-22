@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://tuapi.eees.cc/api.php?category=dongman&type=302",
-  "spider": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+  "spider": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
   "warningText": "📢欢迎使用茶真的很帅的线路，📢长期维护，切勿贩卖",
   "lives": [
     {
@@ -120,7 +120,7 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
@@ -130,7 +130,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
@@ -140,7 +140,7 @@
       "api": "csp_UpYun",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
@@ -150,7 +150,7 @@
       "api": "csp_PanSou",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
@@ -160,7 +160,7 @@
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
     },
     {
@@ -170,7 +170,7 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt$$$test2$$$test2"
     },
     {
@@ -180,10 +180,10 @@
       "api": "csp_Wogg",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
       "ext": {
         "token": "http://127.0.0.1:9978/file/czdhs/token.txt",
-        "filter": "./json/wogg.json"
+        "filter": "./lib/wogg.json"
       }
     }
   ],
