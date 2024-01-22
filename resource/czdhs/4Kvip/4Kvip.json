@@ -10,14 +10,14 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "【智软界】主页推荐",
+      "name": "豆瓣主页推荐",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/drpy.js"
     },
     {
       "key": "ext_live_protocol",
-      "name": "智软界接口免费提供",
+      "name": "茶吖接口免费提供",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -32,18 +32,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$http://tvfan.xxooo.cf/"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt$$$http://tvfan.xxooo.cf/"
     },
     {
       "key": "影探",
-      "name": " 🌟影探┃4K影院",
+      "name": " ❤️影探┃4K影院",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/yt.js"
     },
     {
       "key": "车妹",
-      "name": "🌟七星┃秒播-E",
+      "name": "❤️秒播-E",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -53,7 +53,7 @@
     },
     {
       "key": "Czsapp",
-      "name": "🌟七星┃秒播-F",
+      "name": "❤️秒播-F",
       "type": 3,
       "api": "csp_Czsapp",
       "playerType": 2,
@@ -64,14 +64,14 @@
     },
     {
       "key": "drpy_js_两个BT",
-      "name": "🌟七星┃秒播-G",
+      "name": "❤️秒播-G",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/两个BT.js"
     },
     {
       "key": "南瓜",
-      "name": "🌟七星┃秒播-H",
+      "name": "❤️秒播-H",
       "type": 3,
       "api": "csp_NanGua",
       "playerType": 2,
@@ -81,7 +81,7 @@
     },
     {
       "key": "贱贱",
-      "name": "🌟七星┃秒播-I",
+      "name": "❤️秒播-I",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -92,7 +92,7 @@
     },
     {
       "key": "csp_Nmys",
-      "name": "🌟七星┃秒播-J",
+      "name": "❤️秒播-J",
       "type": 3,
       "api": "csp_Nmys",
       "searchable": 1,
@@ -102,7 +102,7 @@
     },
     {
       "key": "csp_Bttoo",
-      "name": "🌟七星┃秒播-K",
+      "name": "❤️秒播-K",
       "type": 3,
       "api": "csp_Bttwoo",
       "searchable": 1,
@@ -111,7 +111,7 @@
     },
     {
       "key": "花猫影视",
-      "name": "🌟七星┃秒播-L",
+      "name": "❤️秒播-L",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -121,7 +121,7 @@
     },
     {
       "key": "77",
-      "name": "🌟七星┃秒播-M",
+      "name": "❤️秒播-M",
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
@@ -130,7 +130,7 @@
     },
     {
       "key": "橘子",
-      "name": "🌟七星┃秒播-N",
+      "name": "❤️秒播-N",
       "type": 3,
       "api": "csp_AppMao",
       "searchable": 1,
@@ -140,14 +140,14 @@
     },
     {
       "key": "畅梦",
-      "name": "🌟七星┃秒播-O",
+      "name": "❤️秒播-O",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/changmeng.js"
     },
     {
       "key": "Auete",
-      "name": "🌟七星┃秒播-P",
+      "name": "❤️秒播-P",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -157,7 +157,7 @@
     },
     {
       "key": "玉米",
-      "name": "🌟七星┃秒播-Q",
+      "name": "❤️秒播-Q",
       "type": 0,
       "api": "http://124.222.116.5/macos/api.php/provide/vod/at/xml/",
       "playUrl": "json:http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url=",
@@ -167,7 +167,7 @@
     },
     {
       "key": "zxzj",
-      "name": "🌟七星┃秒播-R",
+      "name": "❤️秒播-R",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
@@ -177,7 +177,7 @@
     },
     {
       "key": "lurenjia",
-      "name": "🌟七星┃秒播-S",
+      "name": "❤️秒播-S",
       "type": 1,
       "api": "http://dytt996.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -187,7 +187,7 @@
     },
     {
       "key": "一起看 ",
-      "name": "🌟七星┃秒播-T",
+      "name": "❤️秒播-T",
       "type": 3,
       "api": "csp_YQKan",
       "searchable": 1,
@@ -196,7 +196,7 @@
     },
     {
       "key": "毛驴",
-      "name": "🌟七星┃秒播-U",
+      "name": "❤️秒播-U",
       "type": 3,
       "api": "csp_MLYS",
       "searchable": 1,
@@ -206,7 +206,7 @@
     },
     {
       "key": "迪迪",
-      "name": "🌟七星┃秒播-V",
+      "name": "❤️秒播-V",
       "api": "csp_AppYsV2",
       "type": 3,
       "playerType": 2,
@@ -217,7 +217,7 @@
     },
     {
       "key": "索尼资源",
-      "name": "🌟七星┃秒播-W",
+      "name": "❤️秒播-W",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "categories": [
@@ -260,7 +260,7 @@
     },
     {
       "key": "Lib",
-      "name": "🌟七星┃秒播-X",
+      "name": "❤️秒播-X",
       "type": 3,
       "api": "csp_Libvio",
       "searchable": 1,
@@ -270,7 +270,7 @@
     },
     {
       "key": "Cokemv",
-      "name": "🌟七星┃秒播-Y",
+      "name": "❤️秒播-Y",
       "type": 3,
       "api": "csp_Cokemv",
       "playerType": 2,
@@ -280,7 +280,7 @@
     },
     {
       "key": "csp_SP33",
-      "name": "🌟七星┃秒播-Z",
+      "name": "❤️秒播-Z",
       "type": 3,
       "api": "csp_SP33",
       "searchable": 1,
@@ -290,35 +290,35 @@
     },
     {
       "key": "优酷",
-      "name": "🌟七星┃秒播-A",
+      "name": "❤️秒播-A",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/youku.js"
     },
     {
       "key": "芒果",
-      "name": "🌟七星┃秒播-B",
+      "name": "❤️秒播-B",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/mangguo.js"
     },
     {
       "key": "爱奇异",
-      "name": "🌟七星┃秒播-C",
+      "name": "❤️秒播-C",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/aiqiyi.js"
     },
     {
       "key": "腾讯",
-      "name": "🌟七星┃秒播-D",
+      "name": "❤️秒播-D",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/tengxun.js"
     },
     {
       "key": "csp_qiumi",
-      "name": "🌟七星┃看球迷",
+      "name": "❤️看球迷",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/jrk.js",
@@ -332,14 +332,14 @@
     },
     {
       "key": "drpy_js_短剧网",
-      "name": "🌟七星┃短剧网",
+      "name": "❤️短剧网",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/短剧网.js"
     },
     {
       "key": "Bili",
-      "name": "🌟七星┃哔哩哩",
+      "name": "❤️哔哩哩",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -353,7 +353,7 @@
     },
     {
       "key": "Biliych",
-      "name": "🌟七星┃歌曲大全",
+      "name": "❤️歌曲大全",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -367,7 +367,7 @@
     },
     {
       "key": "dr_兔小贝",
-      "name": "🌟七星┃儿童启蒙",
+      "name": "❤️儿童启蒙",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/兔小贝.js",
@@ -381,7 +381,7 @@
     },
     {
       "key": "少儿教育",
-      "name": "🌟七星┃少儿教育",
+      "name": "❤️少儿教育",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -395,7 +395,7 @@
     },
     {
       "key": "小学课堂",
-      "name": "🌟七星┃小学教育",
+      "name": "❤️小学教育",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -409,7 +409,7 @@
     },
     {
       "key": "初中课堂",
-      "name": "🌟七星┃初中教育",
+      "name": "❤️初中教育",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -423,7 +423,7 @@
     },
     {
       "key": "高中教育",
-      "name": "🌟七星┃高中教育",
+      "name": "❤️高中教育",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -437,7 +437,7 @@
     },
     {
       "key": "csp_woggcli",
-      "name": "🌟七星┃玩偶T4",
+      "name": "❤️玩偶T4",
       "type": 4,
       "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=8e14121f900f4bdfb861306f7a67b17c",
       "searchable": 1,
@@ -446,7 +446,7 @@
     },
     {
       "key": "YiSo",
-      "name": "🌟七星┃搜4K-1",
+      "name": "❤️搜4K-1",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
@@ -456,7 +456,7 @@
     },
     {
       "key": "PanSou",
-      "name": "🌟七星┃搜4K-2",
+      "name": "❤️搜4K-2",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
@@ -466,7 +466,7 @@
     },
     {
       "key": "UpYun",
-      "name": "🌟七星┃搜4K-3",
+      "name": "❤️搜4K-3",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
@@ -476,7 +476,7 @@
     },
     {
       "key": "七夜",
-      "name": "🌟七星┃搜4K-4",
+      "name": "❤️搜4K-4",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,

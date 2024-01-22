@@ -101,7 +101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/wogg.php?ou=公众号茶吖app"
+      "ext": "./json/wogg.php?ou=公众号欧歌app"
     },
     {
       "key": "玩偶表妹",
@@ -111,7 +111,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/wogg.php?ou=公众号茶吖app&id=https://www.weixine.net"
+      "ext": "./json/wogg.php?ou=公众号欧歌app&id=https://www.weixine.net"
     },
     {
       "key": "七夜",
