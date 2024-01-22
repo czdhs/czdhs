@@ -1,5 +1,5 @@
 ﻿{
-  "spider": "./pg.jar;md5;c77fd9af1aa038646d124958adf31d1b",
+  "spider": "./pg.jar;md5;711ab2f193083d2814783c3271a2da9b",
   "lives": [
     {
       "name": "初秋语",
@@ -139,6 +139,19 @@
       }
     },
     {
+      "key": "配置中心",
+      "name": "配置 | 中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "ext": "http://127.0.0.1:9978/file/TV/token.json"
+    },
+    {
       "key": "荐片弹幕版",
       "name": "弹幕 | 荐片[jar]",
       "type": 3,
@@ -193,25 +206,48 @@
       "ext": "https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b$$$null$$$1"
     },
     {
+      "key": "PikPakShare",
+      "name": "弹幕 | PikPak",
+      "type": 3,
+      "api": "csp_PikPakShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.json$$$./json/pikpakclass.json.txt.gz"
+    },
+    {
       "key": "csp_WoGG",
-      "name": "弹幕 | 玩偶哥哥[jar]",
+      "name": "弹幕 | 哥哥[jar]",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://wogg.xyz/",
+      "changeable": 0,
+      "ext": "./lib/wogg.json",
+      "timeout": 30
+    },
+    {
+      "key": "影视车",
+      "name": "弹幕 | 影视车[jar]",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "./lib/wogg.json",
       "timeout": 30
     },
     {
       "key": "csp_Wobg",
-      "name": "弹幕 | 玩偶表哥[jar]",
+      "name": "弹幕 | 表哥[jar]",
       "type": 3,
       "api": "csp_Wobg",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://wobge.run.goorm.io",
+      "changeable": 0,
+      "ext": "./lib/wogg.json",
       "timeout": 30
     },
     {
@@ -267,7 +303,7 @@
     },
     {
       "key": "csp_Hdhive",
-      "name": "阿里 | 影巢[jar]",
+      "name": "弹幕 | 影巢[jar]",
       "type": 3,
       "api": "csp_Hdhive",
       "searchable": 1,
@@ -275,6 +311,17 @@
       "filterable": 1,
       "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
+    },
+    {
+      "key": "Panta",
+      "name": "弹幕 | 盘Ta[jar]",
+      "type": 3,
+      "api": "csp_Panta",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://www.91panta.cn/$$$null$$$1"
     },
     {
       "key": "drpy_js_酷云77",
@@ -445,13 +492,6 @@
       "ext": "./lib/阿布影院.js"
     },
     {
-      "key": "drpy_js_华乐影院",
-      "name": "影视 | 华乐影院[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/华乐影院.js"
-    },
-    {
       "key": "drpy_js_电影先生",
       "name": "影视 | 电影先生[js]",
       "type": 3,
@@ -466,11 +506,67 @@
       "ext": "./lib/落攻阁影视.js"
     },
     {
-      "key": "drpy_js_532影院[V2]",
-      "name": "影视 | 532影院[V2]",
+      "key": "drpy_js_69美剧",
+      "name": "影视 | 69美剧[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/532影院[V2].js"
+      "ext": "./lib/69美剧.js"
+    },
+    {
+      "key": "drpy_js_兄弟影视",
+      "name": "影视 | 兄弟影视[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/兄弟影视.js"
+    },
+    {
+      "key": "drpy_js_4k剧院",
+      "name": "影视 | 4k剧院[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/4k剧院.js"
+    },
+    {
+      "key": "drpy_js_爱迪影视",
+      "name": "影视 | 爱迪影视[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/爱迪影视.js"
+    },
+    {
+      "key": "drpy_js_539影视",
+      "name": "影视 | 539影视[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/539影视.js"
+    },
+    {
+      "key": "drpy_js_333影视",
+      "name": "影视 | 333影视[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/333影视.js"
+    },
+    {
+      "key": "drpy_js_996影视",
+      "name": "影视 | 996影视[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/996影视.js"
+    },
+    {
+      "key": "drpy_js_188影视",
+      "name": "影视 | 188影视[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/188影视.js"
+    },
+    {
+      "key": "drpy_js_哔嘀影视",
+      "name": "影视 | 哔嘀影视[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/哔嘀影视.js"
     },
     {
       "key": "drpy_js_555电影[V2]",
@@ -480,18 +576,18 @@
       "ext": "./lib/555电影[V2].js"
     },
     {
+      "key": "drpy_js_69美剧[V2]",
+      "name": "影视 | 69美剧[V2]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/69美剧[V2].js"
+    },
+    {
       "key": "drpy_js_cokemv[V2]",
       "name": "影视 | cokemv[V2]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/cokemv[V2].js"
-    },
-    {
-      "key": "drpy_js_EMO蓝光[V2]",
-      "name": "影视 | EMO蓝光[V2]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/EMO蓝光[V2].js"
     },
     {
       "key": "drpy_js_UM电影[V2]",
@@ -648,6 +744,37 @@
       "ext": "./lib/优酷.js"
     },
     {
+      "key": "PikaSo",
+      "name": "网盘 | 皮卡搜[jar]",
+      "type": 3,
+      "api": "csp_PikaSo",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://www.pikaso.top/$$$null"
+    },
+    {
+      "key": "csp_HunHePan",
+      "name": "网盘 | 混合盘[jar]",
+      "type": 3,
+      "api": "csp_HunHePan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$null$$$1"
+    },
+    {
+      "key": "秒搜",
+      "name": "网盘 | 秒搜[jar]",
+      "type": 3,
+      "api": "csp_MiaoSou",
+      "timeout": 30,
+      "ext": "http://127.0.0.1:9978/file/TV/token.json"
+    },
+    {
       "key": "Libvio",
       "name": "网盘 | LIBVIO[jar]",
       "type": 3,
@@ -657,17 +784,6 @@
       "filterable": 1,
       "timeout": 30,
       "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://www.libvio.fun$$$null"
-    },
-    {
-      "key": "Panta",
-      "name": "网盘 | 盘Ta[jar]",
-      "type": 3,
-      "api": "csp_Panta",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://www.91panta.cn/$$$null$$$1"
     },
     {
       "key": "DaPanSo",
@@ -742,7 +858,7 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json",
+      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
       "timeout": 30
     },
     {
@@ -752,7 +868,7 @@
       "api": "csp_PanSearch",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json",
+      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
       "timeout": 30
     },
     {
@@ -762,7 +878,7 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json",
+      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
       "timeout": 30
     },
     {
@@ -770,7 +886,7 @@
       "name": "阿里 | 易搜[jar]",
       "type": 3,
       "api": "csp_YiSo",
-      "ext": "http://127.0.0.1:9978/file/TV/token.json",
+      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
       "timeout": 30
     },
     {
@@ -778,7 +894,7 @@
       "name": "阿里 | 盘搜[jar]",
       "type": 3,
       "api": "csp_PanSou",
-      "ext": "http://127.0.0.1:9978/file/TV/token.json",
+      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
       "timeout": 30
     },
     {
@@ -786,7 +902,7 @@
       "name": "阿里 | up云搜[jar]",
       "type": 3,
       "api": "csp_UpYun",
-      "ext": "http://127.0.0.1:9978/file/TV/token.json",
+      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
       "timeout": 30
     },
     {
@@ -1012,19 +1128,6 @@
       "timeout": 30
     },
     {
-      "key": "配置中心",
-      "name": "配置 | 中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "http://127.0.0.1:9978/file/TV/token.json"
-    },
-    {
       "key": "push_quark",
       "name": "夸克 | 推送",
       "type": 3,
@@ -1041,7 +1144,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json",
+      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
       "timeout": 30
     },
     {
@@ -1648,13 +1751,6 @@
       "ext": "./lib/ikanbot3.js"
     },
     {
-      "key": "drpy_js_l0l",
-      "name": "影视 | l0l[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/l0l.js"
-    },
-    {
       "key": "drpy_js_139影视",
       "name": "影视 | 139影视[js]",
       "type": 3,
@@ -1683,25 +1779,11 @@
       "ext": "./lib/8号影院.js"
     },
     {
-      "key": "drpy_js_Fun4K",
-      "name": "影视 | Fun4K[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/Fun4K.js"
-    },
-    {
       "key": "drpy_js_JangoIndex",
       "name": "影视 | JangoIndex[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/JangoIndex.js"
-    },
-    {
-      "key": "drpy_js_KOK影视",
-      "name": "影视 | KOK影视[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/KOK影视.js"
     },
     {
       "key": "drpy_js_NY影院",
@@ -1996,6 +2078,20 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/大师兄影视.js"
+    },
+    {
+      "key": "drpy_js_华乐影院",
+      "name": "起飞 | 华乐影院[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/华乐影院[飞].js"
+    },
+    {
+      "key": "drpy_js_天天视频",
+      "name": "起飞 | 天天视频[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/天天视频[飞].js"
     },
     {
       "key": "drpy_js_起飞影院",
@@ -2575,6 +2671,7 @@
     {
       "name": "proxy",
       "hosts": [
+        "mypikpak.com",
         ".*workers.dev",
         "www.cilixiong.com",
         "*.t4tv.hz.cz",
@@ -2583,9 +2680,7 @@
         "dydhhy.com",
         "magicalsearch.top",
         "api123.adys.app",
-        ".*wogg.xyz",
         "dmku.thefilehosting.com",
-        "epg.112114.xyz",
         "raw.githubusercontent.com",
         "googlevideo.com",
         "cdn.v82u1l.com",
@@ -2600,6 +2695,33 @@
         ".*boku.*",
         ".*nivod.*",
         ".*ulivetv.*"
+      ]
+    },
+    {
+      "name": "七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "夜市",
+      "hosts": [
+        "yeslivetv.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "name": "毛驢",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
       ]
     },
     {
@@ -2722,6 +2844,6 @@
     }
   ],
   "ads": [
-    "mozai.4gtv.tv"
+    "static-mozai.4gtv.tv"
   ]
 }

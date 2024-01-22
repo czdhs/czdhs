@@ -14,9 +14,9 @@ var rule = {
      play_parse: true,
      lazy: '',
      limit: 6,
-     推荐: '.public-list-box;.public-list-exp;a&&title;img&&data-src;.ft2&&Text;a&&href',
+     推荐: '*',
      double: true, // 推荐内容是否双层定位
-     一级: '.public-list-box .public-list-exp;a&&title;img&&data-src;.ft2&&Text;a&&href',
+     一级: '.public-list-exp;a&&title;img&&data-src;.ft2&&Text;a&&href',
      二级: {
          "title": "h1&&Text;.hl-ma0&&Text",
          "img": ".module-item-pic&&img&&data-src",
@@ -25,5 +25,5 @@ var rule = {
           "tabs": ".anthology-tab&&a",
           "lists": ".anthology-list-box:eq(#id)&&li"
      },
-     搜索: '.public-list-box;.thumb-txt&&Text;.public-list-exp&&img&&data-src;.public-list-prb&&Text;a&&href',
+     搜索: '.public-list-box;.thumb-txt&&Text;.public-list-exp&&img&&data-src;.public-list-prb&&Text;a&&href'
     }

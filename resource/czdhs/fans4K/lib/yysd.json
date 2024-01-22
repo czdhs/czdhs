@@ -1,13 +1,17 @@
 [
 {"name": "推荐","list": [{"name": "公众号：『乐享汇fans』免费分享持续更新👊🏻","url": "","icon": "https://cloud.lxweb.cn/f/aEgyI6/Miru.png","version": ""}]},
 {"name": "乐享汇粉丝专属","list": [
-{"name": "影视仓","url": "https://cloud.lxweb.cn/f/NOLGuR/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.13.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.13版"},
-{"name": "影视仓","url": "https://cloud.lxweb.cn/f/yma8iE/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.14.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.14版"},
-{"name": "影视仓","url": "https://cloud.lxweb.cn/f/rW0LHE/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.15.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.15版"},
-{"name": "影视仓","url": "https://cloud.lxweb.cn/f/Yp0jH6/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.16_2.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.16_2版"},
+{"name": "影视仓TV版","url": "https://cloud.lxweb.cn/f/yma8iE/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.14.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.14版"},
+{"name": "影视仓TV版","url": "https://cloud.lxweb.cn/f/rW0LHE/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.15.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.15版"},
+{"name": "影视仓TV版","url": "https://cloud.lxweb.cn/f/Yp0jH6/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.16_2.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.16_2版"},
+{"name": "影视仓TV版","url": "https://cloud.lxweb.cn/f/djgRT2/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.18.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.18版"},
+{"name": "影视仓TV版","url": "https://cloud.lxweb.cn/f/GdpyUg/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.20_1.apk","icon": "https://cloud.lxweb.cn/f/9kNkI1/%E5%BD%B1%E8%A7%86%E4%BB%93.jpg","version": "5.0.20_1版"},
+
 {"name": "猫爪CatBox","url": "https://cloud.lxweb.cn/f/E02diX/CatBox_20231115_1611.apk","icon": "https://cloud.lxweb.cn/f/lg6PFw/CatBox.png","version": "1115版"},  
 {"name": "猫爪CatBox","url": "https://cloud.lxweb.cn/f/DQ11s1/CatBox_20231212_1102.apk","icon": "https://cloud.lxweb.cn/f/lg6PFw/CatBox.png","version": "1212版"},  
 {"name": "猫爪CatBox","url": "https://cloud.lxweb.cn/f/ZqK1tz/CatBox_20231222_0048.apk","icon": "https://cloud.lxweb.cn/f/lg6PFw/CatBox.png","version": "1222版"},  
+{"name": "猫爪CatBox","url": "https://cloud.lxweb.cn/f/MQpJUG/CatBox_v20240108_0206.apk","icon": "https://cloud.lxweb.cn/f/lg6PFw/CatBox.png","version": "v20240108版"},  
+
 {"name": "野火直播","url": "https://cloud.lxweb.cn/f/jmxghy/%E9%87%8E%E7%81%AB%E7%9B%B4%E6%92%AD_V5.1.5.apk","icon": "https://cloud.lxweb.cn/f/VxYAsr/%E9%87%8E%E7%81%AB%E7%9B%B4%E6%92%AD.png","version": "5.1.5版"},
 {"name": "野火直播","url": "https://cloud.lxweb.cn/f/jmYxSy/%E9%87%8E%E7%81%AB%E7%9B%B4%E6%92%AD_V5.2.5.apk","icon": "https://cloud.lxweb.cn/f/VxYAsr/%E9%87%8E%E7%81%AB%E7%9B%B4%E6%92%AD.png","version": "5.2.5版"},
 {"name": "派大星直播","url": "https://cloud.lxweb.cn/f/XqDxtK/%E6%B4%BE%E5%A4%A7%E6%98%9F%E7%9B%B4%E6%92%AD_1.0.3.apk","icon": "https://cloud.lxweb.cn/f/2JzbiG/pdx.png","version": "1.0.3版"},
@@ -31,7 +35,19 @@
 {"name": "影视手机版","url": "https://cloud.lxweb.cn/f/QyogU1/%E5%BD%B1%E8%A7%86_2.1.5.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.5版"},
 {"name": "影视TV_4.X版","url": "https://cloud.lxweb.cn/f/pjawCe/%E5%BD%B1%E8%A7%86TV_2.1.5-4.x.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.5版"},
 {"name": "影视TV_32位版","url": "https://cloud.lxweb.cn/f/AZJRia/%E5%BD%B1%E8%A7%86TV_2.1.5-v7a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.5版"},
-{"name": "影视TV_64位版","url": "https://cloud.lxweb.cn/f/Bwkzf9/%E5%BD%B1%E8%A7%86TV_2.1.5-v8a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.5版"}]},
+{"name": "影视TV_64位版","url": "https://cloud.lxweb.cn/f/Bwkzf9/%E5%BD%B1%E8%A7%86TV_2.1.5-v8a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.5版"},
+{"name": "影视手机版","url": "https://cloud.lxweb.cn/f/jXGYiy/%E5%BD%B1%E8%A7%86_2.1.6.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.6版"},
+{"name": "影视TV_4.X版","url": "https://cloud.lxweb.cn/f/VOLrfr/%E5%BD%B1%E8%A7%86TV_2.1.6-4.x.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.6版"},
+{"name": "影视TV_32位版","url": "https://cloud.lxweb.cn/f/1RrBTe/%E5%BD%B1%E8%A7%86TV_2.1.6-v7a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.6版"},
+{"name": "影视TV_64位版","url": "https://cloud.lxweb.cn/f/XjMxUK/%E5%BD%B1%E8%A7%86TV_2.1.6-v8a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.6版"},
+{"name": "影视手机版","url": "https://cloud.lxweb.cn/f/qo27he/%E5%BD%B1%E8%A7%86_2.1.8.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.8版"},
+{"name": "影视TV_4.X版","url": "https://cloud.lxweb.cn/f/eNy9Sa/%E5%BD%B1%E8%A7%86TV_2.1.8-4.x.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.8版"},
+{"name": "影视TV_32位版","url": "https://cloud.lxweb.cn/f/YpOnF6/%E5%BD%B1%E8%A7%86TV_2.1.8-v7a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.8版"},
+{"name": "影视TV_64位版","url": "https://cloud.lxweb.cn/f/DQjns1/%E5%BD%B1%E8%A7%86TV_2.1.8-v8a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.8版"},
+{"name": "影视手机版","url": "https://cloud.lxweb.cn/f/ZqapTz/%E5%BD%B1%E8%A7%86_2.1.9.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.9版"},
+{"name": "影视TV_4.X版","url": "https://cloud.lxweb.cn/f/zWLOFz/%E5%BD%B1%E8%A7%86TV_2.1.9-4.x.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.9版"},
+{"name": "影视TV_32位版","url": "https://cloud.lxweb.cn/f/QyjAI1/%E5%BD%B1%E8%A7%86TV_2.1.9-v7a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.9版"},
+{"name": "影视TV_64位版","url": "https://cloud.lxweb.cn/f/pjXWse/%E5%BD%B1%E8%A7%86TV_2.1.9-v8a.apk","icon": "https://cloud.lxweb.cn/f/Kb2KtX/fm.png","version": "2.1.9版"}]},
   
 {"name": "工具软件","list": [
 {"name": "甲壳虫ADB","url": "https://cloud.lxweb.cn/f/LPGVFD/%E7%94%B2%E5%A3%B3%E8%99%ABADB%E5%8A%A9%E6%89%8B_1.3.0.apk","icon": "https://cloud.lxweb.cn/f/xg1acM/%E7%94%B2%E5%A3%B3%E8%99%AB.png"},

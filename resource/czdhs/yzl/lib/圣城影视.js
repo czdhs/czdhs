@@ -9,21 +9,23 @@ var rule = {
      headers: {
        'User-Agent': 'MOBILE_UA'
      },
-     cate_exclude: '网址',
-     class_parse: '.nav-menu-items&&li;a&&Text;a&&href;.*/(.*?).html',
+     class_name:'电影&电视剧&综艺&动漫',
+     class_url:'1&2&3&4',
+     //cate_exclude: '网址',
+     //class_parse: '.nav-menu-items&&li;a&&Text;a&&href;.*/(.*?).html',
      play_parse: true,
      lazy: '',
      limit: 6,
-     推荐: '.module-list;.module-items&&.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
+     推荐: '*',
      double: true, // 推荐内容是否双层定位
-     一级: '.module-items .module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
+     一级: '.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
      二级: {
          "title": "h1&&Text;.tag-link&&Text",
          "img": ".module-item-pic&&img&&data-src",
          "desc": ".video-info-items:eq(3)&&Text;.video-info-items:eq(2)&&Text;.video-infs&&Text;.video-info-item:eq(1)&&Text;.video-info-items:eq(0)&&Text",
-          "content": ".vod_content&&Text",
-          "tabs": ".module-tab-item",
-          "lists": ".module-player-list:eq(#id)&&.scroll-content&&a"
+         "content": ".vod_content&&Text",
+         "tabs": ".module-tab-item",
+         "lists": ".module-player-list:eq(#id)&&.scroll-content&&a"
      },
-     搜索: '.module-items .module-search-item;img&&alt;img&&data-src;.video-serial&&Text;a&&href',
+     搜索: '.module-search-item;img&&alt;img&&data-src;.video-serial&&Text;a&&href'
     }

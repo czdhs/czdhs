@@ -43,7 +43,7 @@
       "key": "赞赞",
     "name": "👍双赞",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
       "ext": "https://agit.ai/xiaohewanwan/TVBox/raw/branch/master/js/zanzan.js",
       "searchable": 1,
       "quickSearch": 1,
@@ -53,7 +53,7 @@
       "key": "feiyun",
       "name": "☁️飞云",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
       "ext": "https://agit.ai/xiaohewanwan/TVBox/raw/branch/master/js/fy.js",
       "searchable": 1,
       "quickSearch": 1,
@@ -208,7 +208,7 @@
             "playerType": 2,
             "filterable": 1,
             "ext": "https://jihulab.com/qiaoji/open/-/raw/main/yinghua",
-            "jar": "./lib/fix1209.jar"
+            "jar": "https://download.kstore.space/download/4889/fix1209.jar"
         },
 
 {
@@ -298,9 +298,9 @@
     },
     {"key":"酷玩云盘","name":"🎯云盘","type":3,"api":"csp_XiaoZhang","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"http://小盒酷玩.fun:71/禁止贩卖$$$null$$$1","timeout":60},
     {"key":"csp_Free","name":"🌱Free","type":3,"api":"csp_XBPQ","jar": "http://小盒酷玩.fun:74/禁止贩卖","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/free.json"},
-{"key":"csp_墨鸦","name":"🦃墨鸦","type":3,"api":"csp_XBPQ","jar": "http://小盒酷玩.fun:74/禁止贩卖","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/墨鸦.json"},
+{"key":"csp_墨鸦","name":"🦃墨鸦","type":3,"api":"csp_XBPQ","jar": "http://小盒酷玩.fun:74/禁止贩卖","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://xn--yet226clhctt4b.fun:66/json/墨鸦.json"},
 
-   {"key": "03","name": "🧠零三","type": 3,"api": "csp_XBPQ","jar": "http://小盒酷玩.fun:74/禁止贩卖","playerType": "1","ext": "./lib/03.json"},
+   {"key": "03","name": "🧠零三","type": 3,"api": "csp_XBPQ","jar": "http://小盒酷玩.fun:74/禁止贩卖","playerType": "1","ext": "http://xn--yet226clhctt4b.fun:66/json/03.json"},
    {"key": "NOAD","name": "🥫NO","type": 3,"api": "csp_XBPQ","jar": "http://小盒酷玩.fun:74/禁止贩卖","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./lib/novip.json"},
    {"key":"星奇","name":"🌟星奇","type":3,"api":"csp_Appto","playerType":2,"ext":"DRKzxyMKvtSwY8KlZf2E0UaodOFwpc55fZ8i/57cIgQJHQLy6PnKLAAj9UrkpoexlNCAomzVttbI6D6TEnlHNVDqRhIQqGlHt8m6PjVxP7PSlmraDar52uqEU7UXaaV+UGqz0bc9q95VVRMK4uX5l674wT+p5Cp2QGr1D24Uz7QNkA6GgkDGW/ezLoYsXUCc7xsDK5ev51cJxn0cIJClFysrOGsTvyLYjYIF2ktu+F36QVcAsAvA6Jpyz2hSTlWadidOt2m81TA5yrfAKjBILuQ63gcnyXh6SH9VjER5dL2KD8iTVBAN3L9TlQqDHPr64N0D6mAldXLMYJM/RrTUznCbIno7V/eTT+YqnLWNekVigNB8Q7Fp3WgMYfk73VYcOqPKO2qwQWyJqaQDW4Uo7nFrQWttqYAwWEDhjM/ABuYLkLX9V83/QFOPkhBJZ+eQoqsiVP3ZugFGB5/XuVZkoYWaG00BRQ3j55vTflJ2ne0WQcFAj6GcYNLodkII4Ji53kVoL+w55Cc9PmtSR1tynlWDylYBfkJbtDOJSuEUKDnKiD/ZFqMAejQFV9EcZr1g6QbLIf/FRldeLYRxsYsWPFc2STqEdgGA+osyO/zzyaeZLH5AJ02l7kKyMxKMPaRF2MGX1DPnZHrbXA4u0A5Vy3M3IMFNZaR0f08C4KDDi1xY=","jar":"http://小盒酷玩.fun:76/禁止贩卖"},
    {
@@ -464,7 +464,7 @@
             "name" :"💖嘉音",
             "type" : 3,
             "api" : "./lib/drpy2.min.js",
-            "ext" : "https://notabug.org/ygfxz/6/raw/main/js/嘉良.js"
+            "ext" : "./lib/嘉良.js"
         },
         
         
@@ -701,8 +701,8 @@
             "key" : "js_亲子",
             "name" : "👨‍👨‍👧亲子教育",
             "type" : 3,
-            "api" : "https://notabug.org/ygfxz/6/raw/main/js/lib/drpy2.min.js",
-            "ext" : "https://notabug.org/ygfxz/6/raw/main/js/tongqu.js"
+            "api" : "./lib/drpy2.min.js",
+            "ext" : "./lib/tongqu.js"
         },
    
    
@@ -1452,7 +1452,7 @@
 		 
 
 
- {"key":"dr_兔小贝","name":"📚儿童启蒙","type":3,"api":"https://notabug.org/ygfxz/6/raw/main/js/lib/drpy2.min.js","ext":"https://notabug.org/ygfxz/6/raw/main/js/js/兔小贝.js"},	
+ {"key":"dr_兔小贝","name":"📚儿童启蒙","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/兔小贝.js"},	
 
 {
       "key": "小灯塔",

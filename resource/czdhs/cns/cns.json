@@ -1,18 +1,18 @@
 ﻿{
   "菜妮丝": "https://cainisi.cf",
   "友情提醒": "接口完全免费，切勿付费购买。",
-  "spider": "./fty1214.jar;md5;8a3584c3608a5412fb02a769ab3886bb",
+  "spider": "./fty0101.jar;md5;fd784008ab71d81a178564841059756d",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
       "key": "豆瓣",
-      "name": "CNS┃影视",
+      "name": "豆瓣┃影视",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1,
       "ext": "./lib/douban.json",
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "玩偶",
@@ -25,7 +25,7 @@
         "token": "影視天下第一",
         "filter": "./lib/wogg.json"
       },
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "荐片",
@@ -35,7 +35,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "./lib/jianpian.json",
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "獨播",
@@ -45,7 +45,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "./lib/duboku.json",
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "haiwaikan",
@@ -96,7 +96,7 @@
       "api": "csp_Duanju",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "新6V",
@@ -105,7 +105,7 @@
       "api": "csp_Xb6v",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "🏀看球",
@@ -117,7 +117,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "暴風",
@@ -166,7 +166,7 @@
       "api": "csp_Ying",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "巴士",
@@ -175,7 +175,7 @@
       "api": "csp_Dm84",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "异界",
@@ -184,7 +184,7 @@
       "api": "csp_Ysj",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "哔哩哔哩",
@@ -202,7 +202,7 @@
         "type": "帕梅拉#太极拳#广场舞#演唱会",
         "cookie": ""
       },
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "酷狗",
@@ -211,7 +211,7 @@
       "api": "csp_Kugou",
       "searchable": 0,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "本地",
@@ -220,7 +220,7 @@
       "api": "csp_Local",
       "searchable": 0,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "七夜",
@@ -229,7 +229,7 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "易搜",
@@ -238,7 +238,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "云搜",
@@ -247,7 +247,7 @@
       "api": "csp_UpYun",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "盘搜",
@@ -256,7 +256,7 @@
       "api": "csp_PanSou",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "紙條搜",
@@ -265,7 +265,7 @@
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "盘搜索",
@@ -274,7 +274,7 @@
       "api": "csp_PanSearch",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "找資源",
@@ -284,7 +284,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "影視天下第一$$$test2$$$test2",
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "csp_Nbys",
@@ -293,7 +293,7 @@
       "api": "csp_NiNi",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "星星",
@@ -302,7 +302,7 @@
       "api": "csp_Star",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "厂长资源",
@@ -966,7 +966,7 @@
       "api": "csp_Push",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "应用打赏",
@@ -976,7 +976,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./lib/market.json",
-      "jar": "./lib/fm1214.jar;md5;430c09fd9d279d1b5d1fdebbae7e1d67"
+      "jar": "./lib/fm0101.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab"
     },
     {
       "key": "公告",
@@ -1216,7 +1216,7 @@
   ],
   "lives": [
     {
-      "name": "live",
+      "name": "LIVE",
       "type": 0,
       "url": "https://tvbox.cainisi.cf/TV",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",

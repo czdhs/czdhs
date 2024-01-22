@@ -1,6 +1,17 @@
-{
+﻿{
   "spider": "./fan.jar",
   "sites": [
+    {
+      "key": "58动漫网",
+      "name": "58┃动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "./lib/58动漫.js"
+    },
     {
       "key": "次元城",
       "name": "次元城",
@@ -35,17 +46,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/Dm84.json"
-    },
-    {
-      "key": "58动漫网",
-      "name": "58┃动漫",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "./lib/58动漫.js"
     },
     {
       "key": "NT动漫",

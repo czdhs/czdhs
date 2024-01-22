@@ -6,8 +6,8 @@
     
     "主页url":"https://www.dandanju.cc/",
     
-    "简介":"请勿相信影片中的广告，以免上当受骗！+<p class=\"col-pd\">&&蛋蛋剧不参与",
-    
+    "简介":"+<p class=\"col-pd\">&&蛋蛋剧不参与",
+ 
     "导演":"导演：&&</p>",
     
     "主演":"主演：&&</p>",
@@ -27,10 +27,6 @@
     "图片":"data-original=\"&&\"",
     
     "链接":"href=\"&&\"",
-    
-    "搜索模式":"1",
-    
-    "搜索url": "https://www.dandanju.cc/search/{wd}-------------.html",
     
     "线路数组":"#playlist&&</li>",
     
