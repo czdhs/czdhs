@@ -1,20 +1,21 @@
 {
-  "wallpaper": "https://tuapi.eees.cc/api.php?category=dongman&type=302",
-  "spider": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
-  "warningText": "📢欢迎使用茶真的很帅的线路，📢长期维护，切勿贩卖",
+  "wallpaper": "./t/",
+  "spider": "./jar.php?id=ou;md5;34c50af4380beab4dbfeae6c9b41939b",
+  "warningText": "欧歌📢公众号欧歌APP，📢长期维护，切勿贩卖",
   "lives": [
     {
       "name": "live",
       "type": 0,
-      "url": "./lives/live.txt",
+      "url": "./tv/live.jpg",
+      "playerType": 1,
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "IPV6TV",
+      "name": "TV",
       "type": 0,
-      "url": "https://fanmingming.com/txt?url=https%3A%2F%2Flive.fanmingming.com%2Ftv%2Fm3u%2Fipv6.m3u",
+      "url": "./lib/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
@@ -22,14 +23,14 @@
   "sites": [
     {
       "key": "豆瓣1",
-      "name": "❤豆瓣推荐首页",
+      "name": "❤更新:1/15❤  w.nxog.top",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "豆瓣2",
-      "name": "📢茶吖榜单荐片",
+      "name": "📢欧歌榜单荐片",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -42,7 +43,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "360_spider",
@@ -61,7 +62,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "AliPS",
@@ -71,7 +72,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "Yisou",
@@ -81,7 +82,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "Gitcafe",
@@ -91,7 +92,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "玩偶哥哥",
@@ -120,8 +121,8 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "易搜",
@@ -130,8 +131,8 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "雲搜",
@@ -140,8 +141,8 @@
       "api": "csp_UpYun",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "盤搜",
@@ -150,8 +151,8 @@
       "api": "csp_PanSou",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "紙條搜",
@@ -160,8 +161,8 @@
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt"
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
     },
     {
       "key": "找資源",
@@ -170,8 +171,8 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
-      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt$$$test2$$$test2"
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt$$$test2$$$test2"
     },
     {
       "key": "玩偶",
@@ -180,11 +181,35 @@
       "api": "csp_Wogg",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar.php?id=ali;md5;34c50af4380beab4dbfeae6c9b41939b",
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
       "ext": {
-        "token": "http://127.0.0.1:9978/file/czdhs/token.txt",
+        "token": "http://127.0.0.1:9978/file/TVBox/tok.txt",
         "filter": "./lib/wogg.json"
       }
+    },
+    {
+      "key": "應用商店",
+      "name": "🛒影视应用商店",
+      "type": 3,
+      "jar": "./jar.php?id=ali;md5;25abba0f454c45a26f6ab8a37a5fd685",
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "http://m.nxog.top/nxog/ts/sd.php"
+    },
+    {
+      "key": "豆瓣3",
+      "name": "📢公众号欧歌APP",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "豆瓣4",
+      "name": "📢长期维护，切勿贩卖",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
     }
   ],
   "parses": [
@@ -199,12 +224,12 @@
       "url": "Parallel"
     },
     {
-      "name": "🐉茶吖vip",
+      "name": "🐉欧歌vip",
       "type": 1,
       "url": "http://b.nxog.top:81/jx/?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8Capp&url="
     },
     {
-      "name": "🐉茶吖1",
+      "name": "🐉欧歌1",
       "type": 0,
       "url": "https://jx.xyflv.cc/?url=",
       "ext": {
@@ -215,7 +240,7 @@
       }
     },
     {
-      "name": "🐉茶吖2",
+      "name": "🐉欧歌2",
       "type": 0,
       "url": "https://www.8090g.cn/?url=",
       "ext": {
@@ -225,7 +250,7 @@
       }
     },
     {
-      "name": "🐉茶吖3",
+      "name": "🐉欧歌3",
       "type": 0,
       "url": "https://jx.yparse.com/index.php?url=",
       "ext": {
@@ -235,7 +260,7 @@
       }
     },
     {
-      "name": "🐉茶吖4",
+      "name": "🐉欧歌4",
       "type": 0,
       "url": "https://jx.jsonplayer.com/player/?url=",
       "ext": {
@@ -245,7 +270,7 @@
       }
     },
     {
-      "name": "🐉茶吖5",
+      "name": "🐉欧歌5",
       "type": 0,
       "url": "https://jx.quankan.app/?url=",
       "ext": {
@@ -255,7 +280,7 @@
       }
     },
     {
-      "name": "🐉茶吖6",
+      "name": "🐉欧歌6",
       "type": 0,
       "url": "https://jx.aidouer.net/?url=",
       "ext": {
@@ -266,7 +291,7 @@
       }
     },
     {
-      "name": "🐉茶吖7",
+      "name": "🐉欧歌7",
       "type": 0,
       "url": "https://yparse.ik9.cc/index.php?url=",
       "ext": {
@@ -276,7 +301,7 @@
       }
     },
     {
-      "name": "🐉茶吖8",
+      "name": "🐉欧歌8",
       "type": 0,
       "url": "https://www.ckplayer.vip/jiexi/?url=",
       "ext": {
@@ -286,7 +311,7 @@
       }
     },
     {
-      "name": "🐉茶吖9",
+      "name": "🐉欧歌9",
       "type": 0,
       "url": "https://www.8090g.cn/?url=",
       "ext": {
@@ -296,7 +321,7 @@
       }
     },
     {
-      "name": "🐉茶吖10",
+      "name": "🐉欧歌10",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url=",
       "ext": {
@@ -306,7 +331,7 @@
       }
     },
     {
-      "name": "🐉茶吖11",
+      "name": "🐉欧歌11",
       "type": 0,
       "url": "https://www.playm3u8.cn/jiexi.php?url=",
       "ext": {
@@ -316,7 +341,7 @@
       }
     },
     {
-      "name": "🐉茶吖12",
+      "name": "🐉欧歌12",
       "type": 0,
       "url": "https://vip.lianfaka.com/vip/?url=",
       "ext": {
