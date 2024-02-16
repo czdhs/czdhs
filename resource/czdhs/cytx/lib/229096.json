@@ -1,0 +1,40 @@
+[
+  {
+    "name": "推薦",
+    "list": [
+      {
+        "url": "https://i.imgs.ovh/2023/10/19/2mfxN.jpeg",
+        "icon": "https://i.imgs.ovh/2023/10/19/2mfxN.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "正式版",
+    "list": [
+      {
+        "name": "春盈天下影院",
+        "url": "https://dl-v1.feejii.com/202401171155/03fe7000de58c0cd43a46fd9ee36b6cf/storage/files/2023/12/27/2/226002/1703655551984000000000.gz?%E6%98%A5%E7%9B%88%E5%A4%A9%E4%B8%8B0404.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "影院下载"
+      },
+      {
+        "name": "春盈天下电视",
+        "url": "https://dl-v1.feejii.com/202401171150/c9c74c789519b6d929c3f5f81d09eb32/storage/files/2024/01/03/2/226002/1704271073709000000000.gz?%E6%98%A5%E7%9B%88%E5%A4%A9%E4%B8%8B%E7%9B%B4%E6%92%AD0103.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "电视下载"
+      }
+    ]
+  },
+
+  {
+    "name": "备用测试",
+    "list": [
+      {
+        "name": "备用",
+        "url": "空白测试",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      }
+    ]
+  }
+]

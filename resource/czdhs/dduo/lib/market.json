@@ -1,0 +1,172 @@
+[
+  {
+    "name": "更新推荐",
+    "list": [
+      {
+        "name": "电视内置版-java-4.x",
+        "url": "https://d.kstore.space/download/6298/FM/leanback-4x_sign_clone.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "4.x 地址栏输入两个a"
+      },
+      {
+        "name": "电视内置版-java-v7",
+        "url": "https://d.kstore.space/download/6298/FM/leanback-java-armeabi_v7a_sign_clone.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a 地址栏输入两个a"
+      },
+      {
+        "name": "手机内置版-java-v7",
+        "url": "https://d.kstore.space/download/6298/FM/mobile-java-armeabi_v7a_sign_clone.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v7a 地址栏输入两个a"
+      },
+      {
+        "name": "手机内置版-java-v8",
+        "url": "https://d.kstore.space/download/6298/FM/mobile-java-arm64_v8a_sign_clone.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v8a 地址栏输入两个a"
+      },
+      {
+          "name": "梅林IPTV﹢",
+          "url": "https://d.kstore.space/download/6298/apk/梅林IPTV﹢.apk",
+          "icon": "https://qiangge.vip.cpolar.cn/mytv/lives/tv.jpg",
+          "version": "202401"
+      },
+      {
+          "name": "小白文件管理器",
+          "url": "https://d.kstore.space/download/6298/apk/小白文件管理器_2.8.0（TV版）.apk",
+          "icon": "https://qiangge.vip.cpolar.cn/mytv/apk/png/xiaobai.png",
+          "version": "2.8.0"
+      },
+      {
+          "name": "小鸡模拟器",
+          "url": "https://d.kstore.space/download/6298/apk/小鸡模拟器TV 1.1.8.APK",
+          "icon": "https://qiangge.vip.cpolar.cn/mytv/apk/png/xiaojitv.png",
+          "version": "1.1.8"
+      }
+    ]
+  },
+  {
+    "name": "影视正式版",
+    "list": [
+      {
+        "name": "电视版-java",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-java-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      },
+      {
+        "name": "电视版-java",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-java-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v8a"
+      },
+      {
+        "name": "电视版-py",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-python-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      },
+      {
+        "name": "电视版-py",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-python-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v8a"
+      },
+      {
+        "name": "手机版-java",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-java-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v7a"
+      },
+      {
+        "name": "手机版-java",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-java-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v8a"
+      },
+      {
+        "name": "手机版-py",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-python-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v7a"
+      },
+      {
+        "name": "手机版-py",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-python-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "影视内测版",
+    "list": [
+      {
+        "name": "电视版-java",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      },
+      {
+        "name": "电视版-java",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v8a"
+      },
+      {
+        "name": "电视版-py",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      },
+      {
+        "name": "电视版-py",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v8a"
+      },
+      {
+        "name": "手机版-java",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v7a"
+      },
+      {
+        "name": "手机版-java",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v8a"
+      },
+      {
+        "name": "手机版-py",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v7a"
+      },
+      {
+        "name": "手机版-py",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-arm64_v8a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "4.x版",
+    "list": [
+      {
+        "name": "电视版-java",
+        "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      },
+      {
+        "name": "电视版-py",
+        "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback-python.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      }
+    ]
+  }
+]

@@ -1,81 +1,161 @@
-{
-    "规则名": "中国蓝光网",
-    "规则作者": "",
-    "请求头参数": "手机",
-    "网页编码格式": "UTF-8",
-    "图片是否需要代理": "0",
-    "是否开启获取首页数据": "1",
-    "首页推荐链接": " http://www.languangdy.com/",
-    "首页列表数组规则": "body&&.post.box",
-    "首页片单列表数组规则": ".thumbnail",
-    "首页片单是否Jsoup写法": "1",
-    "分类起始页码": "1",
-    "分类链接": "http://www.languangdy.com/{cateId}/index_{catePg}.html[firstPage=http://www.languangdy.com/{cateId}/]",
-    "分类名称": "Bluray蓝光原盘&4K超高清&蓝光1080&WEB-DL高清电影&TVshow&电影合集&其他资源",
-    "分类名称替换词": "Bluray&4K&1080P&WEB-DL&other/TVshow&other/Collection&other",
-    "筛选数据": {},
-    //"筛选数据": "ext",
-    //{cateId}
-    "筛选子分类名称": "",
-    "筛选子分类替换词": "",
-    //{class}
-    "筛选类型名称": "",
-    "筛选类型替换词": "*",
-    //{area}
-    "筛选地区名称": "",
-    "筛选地区替换词": "*",
-    //{year}
-    "筛选年份名称": "",
-    "筛选年份替换词": "*",
-    //{lang}
-    "筛选语言名称": "",
-    "筛选语言替换词": "*",
-    //{by}
-    "筛选排序名称": "时间&人气&评分",
-    "筛选排序替换词": "time&hits&score",
-    "分类截取模式": "1",
-    "分类列表数组规则": "body&&.post.box",
-    "分类片单是否Jsoup写法": "1",
-    "分类片单标题": "a&&title",
-    "分类片单链接": "a&&href",
-    "分类片单图片": "img&&src",
-    "分类片单副标题": ".info_category info_ico&&Text",
-    "分类片单链接加前缀": "",
-    "分类片单链接加后缀": "",
-    "搜索请求头参数": "手机",
-    "搜索链接": " http://www.languangdy.com/e/search/index.php;post",
-    "POST请求数据": "show=title&tempid=1&tbname=article&mid=1&dopost=search&submit=&keyboard={wd}",
-    "搜索截取模式": "1",
-    "搜索列表数组规则":  "body&&.thumbnail",
-    "搜索片单是否Jsoup写法": "1",
-    "搜索片单图片":  "img&&src",
-    "搜索片单标题":"a&&title!<font color='red'>",
-    "搜索片单链接":"a&&href",
-    "搜索片单副标题": ".info_category info_ico&&Text",
-    "搜索片单链接加前缀": "",
-    "搜索片单链接加后缀": "",
-    "链接是否直接播放": "0",
-    "直接播放链接加前缀": "",
-    "直接播放链接加后缀": "",
-    "直接播放直链视频请求头": "",
-    "详情是否Jsoup写法": "1",
-    "类型详情": "body&&.context&&p:contains(类)&&Text!",
-    "年代详情": "body&&.context&&p:contains(年)&&Text!",
-    "地区详情": "body&&.context&&p:contains(产)&&Text!",
-    "演员详情": "body&&.context&&p:contains(演)&&Text!",
-    "简介详情": "body&&.context&&p:contains(，)&&Text!",
-    "线路列表数组规则": "body&&.dldiv",
-    "线路标题": "a&&Text",
-    "播放列表数组规则": "body&&.dldiv",
-    "选集列表数组规则": "a&&[href^=magnet]",
-    "选集标题链接是否Jsoup写法": "1",
-    "选集标题": "a&&Text",
-    "选集链接": "a&&href",
-    "是否反转选集序列": "0",
-    "选集链接加前缀": "",
-    "选集链接加后缀": "",
-    "分析MacPlayer": "0",
-    "是否开启手动嗅探": "0",
-    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#video/tos",
-    "手动嗅探视频链接过滤词": ".html#=http"
-}
+<!doctype html>
+<html>
+        <head>
+                    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<script type="text/javascript">
+    if (window.location.protocol === 'https:') {
+        let meta = document.createElement('meta');
+        meta.httpEquiv = "Content-Security-Policy";
+        meta.content = "upgrade-insecure-requests";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+    }
+</script>
+<title>AtomGit_开放原子开源基金会代码托管平台</title>
+<meta name="keywords" content="开源项目源代码托管，开源软件项目，开源硬件项目，开源芯片项目，AtomGit，Git">
+<meta name="description" content="AtomGit 是开放原子开源基金会旗下的具有自主核心技术的开源代码托管平台，为开源软件、开源硬件、开源芯片等各类开源项目提供基于 Git 协议的源码托管服务，推动创新资源共建共享。">
+<meta name="viewport" content="width=1280, maximum-scale=2.0, user-scalable=yes"/>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/png">
+<link rel="dns-prefetch" href="//g.alicdn.com">
+
+<style>
+    :root {
+        --highlight-brand: #f2fbff;
+        --bright-brand: #ccecff;
+        --border-brand: #87d2ff;
+        --primary-brand: #1b9aee;
+        --hover-brand: #0171c2;
+        --click-brand: #004f8a;
+        --heavy-brand: #002e52;
+        --color-brand1-10: #000F33 !important;
+        --color-brand1-9: #001E66 !important;
+        --color-brand1-8: #002C99 !important;
+        --color-brand1-7: #0034B3 !important;
+        --color-brand1-6: #215AE5 !important;
+        --color-brand1-5: #4077FF !important;
+        --color-brand1-4: #6699FF !important;
+        --color-brand1-3: #BFD4FF !important;
+        --color-brand1-2: #D9E5FF !important;
+        --color-brand1-1: #F0F6FF !important;
+    }
+</style>
+<script src=https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/i18n/0.0.5/codeup-assets_develop.json?timestamp=1707994111390"></script>
+
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/style/style/yunxiao-v5.min.css" />
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.css" />
+        <link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.css?timestamp=1707994111390">
+                </head>
+    <body>
+                    
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/lib/1.0.0/yunxiao-libs.min.js" nonce=""></script>
+
+<div id="container"></div>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/dist/dist/teamix-ui.min.js" nonce=""></script>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.js" nonce=""></script>
+<script type="text/javascript" nonce="">
+    window.GlobalSetting = {};
+
+    window.config = {
+                    isHomePage: true,
+                appId: '5d76215aa338520001c9e789',
+        orgId: '658ec689819b1049ae479f03',
+        accessToken: '',
+        needLanguageSwitcher: false,
+        needAccountSetting: false,
+        needUserProfile: true,
+        needUserProfileCodeup: true,
+        needLogin: true,
+        hideAppStore: false,
+        hideOrgAdmin: true,
+        lang: 'zh_CN',
+        env: 'opensource'
+    };
+
+    window.UILessConfig = window.config;
+                
+    // 应用自己使用数据
+    window.FORCE = {
+        csrfTokenName: '',
+        csrfToken: '',
+        tenant: 'OPENSOURCE',
+        subRoute: '',
+        env: 'PRODUCTION',
+        assetsVersion: '5.0.0',
+        user: {
+            loginAccount:'',//账号登录名
+            nickname: '',//账号昵称
+            id: '',//账号唯一ID
+            avatar: '',
+            email:  'default_anonymous_user@default_anonymous_user' ,
+            codeUserId: '',
+        },
+        organization: {
+            id: '30572',
+            namespace_id: '31899',
+            organization_id: '658ec689819b1049ae479f03',
+            path: 'lxhfans',
+            user_role: 'GUEST',
+            repo_display_level: '0,20',
+            repo_visibility_level: '0,20',
+            repo_admin_access_visibility_level: '0,20',
+            repo_default_clone_type:'1',
+            is_recycler_enable:'false',
+            backup_enabled:'false',
+            i18n_support:'false',
+            commits_export_support:'false',
+            new_code_review_gray_flag:  true
+        },
+        locale: 'zh_CN',
+        remoteIP: '54.164.96.48',
+        realIpEnable: 'true',
+        recycleDays: '15',
+        pathResource: {},
+        resourceSubject: {},
+        codeReviewDetail: {},
+        assetsName: 'error'
+    };
+
+
+</script>
+
+<script type="text/javascript" nonce="">
+    window.FORCE.pathResource = {
+        type: '',
+        id: '',
+        fullPath: '',
+        fullName: '',
+        role:'',
+        parentId: '',
+        parentType: '',
+        isEmpty: '',
+        defaultBranch: '',
+        isExist: '',
+        isArchive: '',
+        visibilityValue: '',
+        isStar: '',
+        repoSize: '',
+        branchCount: '',
+        commitCount: '',
+        mergeRequestCount: '',
+        tagCount: '',
+        repoLimitSize: ''
+    };
+</script>
+<script type="text/javascript" nonce="">
+
+    window.ERROR = {};
+    window.ERROR.errorMessage = '查询文件内容失败';
+    window.ERROR.errorCode = 'SYSTEM_ERROR';
+    window.ERROR.errorAction = '请稍后重试';
+    window.ERROR.errorTraceId = '';
+
+</script>
+
+
+
+        <script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.js?timestamp=1707994111390" nonce=""></script>
+                </body>
+    </html>

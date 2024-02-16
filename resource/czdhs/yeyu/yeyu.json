@@ -1,5 +1,5 @@
-{
-  "spider": "./yydf.jar;md5;f362e434223a9b67903f9fe0c1f98c40",
+﻿{
+  "spider": "./yydf.jar;md5;0cd68e69498540733d1f22f92bc3c339",
   "wallpaper": "http://饭太硬.ga/深色壁纸/api.php",
   "lives": [
     {
@@ -26,7 +26,7 @@
       "key": "豆瓣",
       "name": "豆瓣 |QQ群独享",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
@@ -147,16 +147,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/爱看影院.json"
-    },
-    {
-      "key": "csp_XYQHiker_锐行加速影院",
-      "name": "🌙 锐行 ",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/锐行加速影院.json"
     },
     {
       "key": "csp_XYQHiker_奇趣影视",
@@ -298,7 +288,6 @@
       "name": "️🐧 腾讯影视 ",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/",
-      "playUrl": "https://jxdp.codermart.net/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -361,7 +350,6 @@
       "name": "️🥝 奇艺影视 ",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qiyi/?at/xml/",
-      "playUrl": "https://jxdp.codermart.net/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -393,7 +381,6 @@
       "name": "️👔 优酷影视 ",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/",
-      "playUrl": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -425,7 +412,6 @@
       "name": "️🦊 搜狐影视 ",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/sohu/?at/xml/",
-      "playUrl": "https://jx.xmflv.com/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -704,8 +690,8 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "jar": "./lib/pg.jar;md5;6633b55ad0494d70281c024fbd5f0b30",
-      "ext": "http://127.0.0.1:9978/file/XYQTVBox/tokenm.json$$$https://api.wogg.xyz/$$$null$$$1$$$https://fm.t4tv.hz.cz/json/wogg.json"
+      "jar": "./lib/pg.jar;md5;58fc87042d81c94a11056d7b481d4c74",
+      "ext": "./lib/wogg.json"
     },
     {
       "key": "csp_WoGG",
@@ -715,7 +701,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
     {
@@ -759,7 +745,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "ext": "http://rzys.xyz"
     },
     {
@@ -798,7 +784,7 @@
       "api": "csp_NanGua",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "ext": "null$$$1"
     },
     {
@@ -809,14 +795,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcJUCYdIVisPtbeywENfScyc6nTW0F+D7rX5HCm9c3SL03FsmGsmXS04XZMlbxEVW4/ZgwONbnobxj8KxeRpXqDxCWghfAf9JSR025yi92eOKqE9HokX9QQnl1WsU21CR4+dlEMDEsADd1xFGiiGtsh0vqJFAf41Z7sYL00hBBNM3xJsYyXCuX4BrzNYpZRwmcnwnXIHe2MtwbsJf0IAs6yM+y/ub+niyxOc2YuPbc/VUS4DGPqzelIi6plLWFvZ8+j2xcvAgopZxZFhBkIYCIIC5Uec/JW8RgW9WV1SKntGcmcd5yjIpagsmpXymH3a+FKzHKMB3LvXmR6onijWkP0VpivFgVVfjWrik4Yr0ZjZxKFA0uPQvy9l9EjPMNrQIj0sZjnpv7JmoMO+HfQ+lqKhJrQFq4MooyyGv6yhNv12IOHay3A="
     },
     {
       "key": "csp_YGP",
       "name": "🗜 叨观荐影 ",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_YGP",
       "searchable": 0,
       "quickSearch": 0,
@@ -930,7 +916,7 @@
       "key": "YiSo",
       "name": "😹易搜┃搜索",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_YiSo",
       "searchable": 1,
       "quickSearch": 1,
@@ -941,7 +927,7 @@
       "key": "Zhaozy",
       "name": "🐺找资源┃搜索",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_Zhaozy",
       "searchable": 1,
       "quickSearch": 1,
@@ -952,7 +938,7 @@
       "key": "PanSou",
       "name": "🦊盘搜┃搜索",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_PanSou",
       "searchable": 1,
       "quickSearch": 1,
@@ -963,7 +949,7 @@
       "key": "UpYun",
       "name": "😻Up搜┃搜索",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_UpYun",
       "searchable": 1,
       "quickSearch": 1,
@@ -974,7 +960,7 @@
       "key": "PanSearch",
       "name": "🙀盘Se┃搜索",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_PanSearch",
       "searchable": 1,
       "quickSearch": 1,
@@ -985,7 +971,7 @@
       "key": "七夜",
       "name": "😾七夜┃搜索",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_Dovx",
       "searchable": 1,
       "quickSearch": 1,
@@ -996,7 +982,7 @@
       "key": "push_agent",
       "name": "🛴手机┃推送",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
@@ -1028,7 +1014,7 @@
       "key": "csp_DiDuan",
       "name": "🏌 低调直连 ",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_Ddrk",
       "searchable": 1,
       "quickSearch": 1,
@@ -1038,7 +1024,7 @@
       "key": "csp_Lib1",
       "name": "🏂 利播直连 ",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_Libvio",
       "searchable": 1,
       "quickSearch": 1,
@@ -1091,7 +1077,7 @@
       "key": "在线之家",
       "name": "🕸 在线 ",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_Zxzj",
       "searchable": 1,
       "quickSearch": 1,
@@ -1440,7 +1426,7 @@
       "key": "csp_Anime1",
       "name": "🎎 日漫 ",
       "type": 3,
-      "jar": "./lib/guafty.jar;md5;f8e21d60027d5d4f9e287be44f192c3f",
+      "jar": "./lib/guafty.jar;md5;6695b4fe705a1eedcae352abe5412640",
       "api": "csp_Anime1",
       "searchable": 1,
       "quickSearch": 1,
@@ -2135,14 +2121,112 @@
       "url": "Web"
     },
     {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
+      "name": "专解1",
+      "type": 1,
+      "url": "https://api.qljson.xyz/api/?key=d6f721dc584c894f4161e3b942a0727a&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     },
     {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
+      "name": "专解2",
+      "type": 1,
+      "url": "https://api.qljson.xyz/api/?key=d6f721dc584c894f4161e3b942a0727a&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "专解3",
+      "type": 1,
+      "url": "https://json..url88k.cn/api/?format=zl&key=ce252c4a116ff2613202e17e2269c2fb&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "专解4",
+      "type": 1,
+      "url": "https://mg.zrjx.xyz/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
     },
     {
       "name": "业余",

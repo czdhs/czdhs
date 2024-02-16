@@ -1,11 +1,19 @@
 ﻿{
-    "spider": "./HCCX.jar",
+    "spider": "./HeChengChaXiu.jar",
     "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "url": "./lives/live.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        }
+    ],
     "warningText": "荷城茶秀接口完全免费，切勿付费购买！",
     "sites": [
         {
             "key": "js_豆瓣热播",
-            "name": "🅱️追剧影院|T热播",
+            "name": "🏮荷城茶秀:祝您新年快乐!龙年大吉!🏮",
             "type": 3,
             "api": "./api/Api.js",
             "searchable": 0,
@@ -15,7 +23,7 @@
         },
         {
             "key": "AliYunPan",
-            "name": "🅱️云盘登录|T签到",
+            "name": "🅱️阿里云盘|T设置",
             "type": 3,
             "api": "csp_AliYunPan",
             "searchable": 0,
@@ -23,54 +31,75 @@
             "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
         },
         {
-            "key": "Wogg",
-            "name": "🅱️玩偶哥哥|T追剧",
+            "key": "wogg",
+            "name": "🅱️玩偶阿里|T追剧",
             "type": 3,
-            "api": "csp_XPathAli",
+            "api": "csp_XYQHikerAL",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
             "ext": "./json/玩偶哥哥.json"
         },
         {
-            "key": "Czspp",
+            "key": "wwgg",
+            "name": "🅱️玩我阿里|T追剧",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./json/玩我哥哥.json"
+        },
+        {
+            "key": "yscal",
+            "name": "🅱️运输阿里|T追剧",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./json/运输阿里.json"
+        },
+        {
+            "key": "Alist",
+            "name": "🅱️Alist网盘|T追剧",
+            "type": 3,
+            "api": "./api/alist.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "http://rihou.cc:5678/tvbox/json/alist_ext.json;200;video"
+        },
+        {
+            "key": "csp_厂长",
             "name": "🅱️厂长影视|T追剧",
             "type": 3,
-            "api": "csp_Czsapp",
+            "api": "csp_CsCz",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.czzy88.com/"
+            "changeable": 1,
+            "ext": "https://bo.czys.me@@荷城茶秀"
         },
         {
-            "key": "csp_骚火",
-            "name": "🅱️骚火影视|T追剧",
+            "key": "csp_南瓜",
+            "name": "🅱️南瓜影视|T追剧",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_AppNg",
             "searchable": 1,
             "quickSearch": 1,
+            "playerType": 2,
             "filterable": 1,
-            "ext": "./json/骚火影视.json"
+            "ext": "http://ys.changmengyun.com/api.php/provide/@@荷城茶秀"
         },
         {
-            "key": "csp_威士",
-            "name": "🅱️威士影视|T追剧",
+            "key": "csp_皮虾",
+            "name": "🅱️皮虾影视|T追剧",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_CsPpx",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/威士影视.json"
-        },
-        {
-            "key": "csp_Free",
-            "name": "🅱️Free影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/Free影视.json"
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "http://aikun.tv/@@荷城茶秀"
         },
         {
             "key": "csp_xBPQ_玖八",
@@ -83,14 +112,14 @@
             "ext": "./json/98影视.json"
         },
         {
-            "key": "csp_蛋蛋",
-            "name": "🅱️蛋蛋影视|T追剧",
+            "key": "csp_七新",
+            "name": "🅱️七新影视|T追剧",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/蛋蛋影视.json"
+            "ext": "./json/七新影视.json"
         },
         {
             "key": "csp_星辰",
@@ -103,16 +132,6 @@
             "ext": "./json/星辰影视.json"
         },
         {
-            "key": "csp_TVB",
-            "name": "🅱️TVB云播|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/TVB云播.json"
-        },
-        {
             "key": "csp_农民",
             "name": "🅱️农民影视|T追剧",
             "type": 3,
@@ -121,6 +140,26 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/农民影视.json"
+        },
+        {
+            "key": "csp_骚火",
+            "name": "🅱️骚火影视|T追剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/骚火影视.json"
+        },
+        {
+            "key": "csp_蛋蛋",
+            "name": "🅱️蛋蛋影视|T追剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/蛋蛋影视.json"
         },
         {
             "key": "csp_xBPQ_奇优",
@@ -133,106 +172,6 @@
             "ext": "./json/奇优影视.json"
         },
         {
-            "key": "csp_疯狗",
-            "name": "🅱️疯狗影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/疯狗影视.json"
-        },
-        {
-            "key": "csp_万达",
-            "name": "🅱️万达影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/万达影视.json"
-        },
-        {
-            "key": "csp_爱看",
-            "name": "🅱️爱看影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/爱看影视.json"
-        },
-        {
-            "key": "csp_七新",
-            "name": "🅱️七新影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/七新影视.json"
-        },
-        {
-            "key": "csp_超前",
-            "name": "🅱️超前点播|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/超前B站.json"
-        },
-        {
-            "key": "csp_热播",
-            "name": "🅱️热播之家|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/热播之家.json"
-        },
-        {
-            "key": "csp_玖摇",
-            "name": "🅱️玖摇影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/91影视.json"
-        },
-        {
-            "key": "csp_不卡",
-            "name": "🅱️不卡影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/真不卡影视.json"
-        },
-        {
-            "key": "csp_午舞",
-            "name": "🅱️午舞影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/五五影视.json"
-        },
-        {
-            "key": "csp_师兄",
-            "name": "🅱️师兄影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/大师兄影视.json"
-        },
-        {
             "key": "csp_xBPQ_视觉",
             "name": "🅱️视觉影视|T追剧",
             "type": 3,
@@ -241,86 +180,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/新视觉影视.json"
-        },
-        {
-            "key": "csp_圣城",
-            "name": "🅱️圣城影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/圣城影视.json"
-        },
-        {
-            "key": "csp_好戏",
-            "name": "🅱️好戏影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/好戏影视.json"
-        },
-        {
-            "key": "csp_七月",
-            "name": "🅱️七月影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/七月影视.json"
-        },
-        {
-            "key": "csp_佳能",
-            "name": "🅱️佳能影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/348影视.json"
-        },
-        {
-            "key": "csp_土豪",
-            "name": "🅱️土豪影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/土豪影视.json"
-        },
-        {
-            "key": "csp_觅知",
-            "name": "🅱️觅知影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/觅知影视.json"
-        },
-        {
-            "key": "csp_达龟",
-            "name": "🅱️达龟影院|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/达达龟影视.json"
-        },
-        {
-            "key": "csp_七年",
-            "name": "🅱️七年影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/七年影视.json"
         },
         {
             "key": "csp_黑狐",
@@ -333,132 +192,55 @@
             "ext": "./json/黑狐影视.json"
         },
         {
-            "key": "csp_苹果",
-            "name": "🅱️苹果影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/苹果影视.json"
-        },
-        {
-            "key": "csp_米爱",
-            "name": "🅱️米爱影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/米爱影视.json"
-        },
-        {
-            "key": "csp_低端",
-            "name": "🅱️低端影视|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/低端影视.json"
-        },
-        {
-            "key": "csp_非凡",
-            "name": "🅱️非凡资源|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/非凡资源网.json"
-        },
-        {
-            "key": "csp_量子",
-            "name": "🅱️量子资源|T追剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/量子资源网.json"
-        },
-        {
-            "key": "荐片",
+            "key": "csp_JianPian",
             "name": "🅱️荐片秒播|T追剧",
             "type": 3,
-            "api": "csp_RinHome",
+            "api": "csp_JianPian",
+            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "push_agent",
-            "name": "🅱️辅助推送|T功能",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "PanSearch",
-            "name": "🔍阿里|网盘搜",
-            "type": 3,
-            "api": "csp_PanSearch",
-            "searchable": 1,
             "filterable": 1,
-            "changeable": 1,
-            "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
-        },
-        {
-            "key": "PanSou",
-            "name": "🔍阿里|盘搜索",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
-        },
-        {
-            "key": "UpYun",
-            "name": "🔍阿里|优盘搜",
-            "type": 3,
-            "api": "csp_UpYun",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
-        },
-        {
-            "key": "YiSou",
-            "name": "🔍阿里|易搜搜",
-            "type": 3,
-            "api": "csp_YiSou",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "b4242bebe6f144d3aa6a2cd842ac65aa$$$satoken=abfceef7-ca8f-40b6-afd8-5c11fab10336"
-        },
-        {
-            "key": "Zhaozy",
-            "name": "🔍阿里|找资源",
-            "type": 3,
-            "api": "csp_Zhaozy",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "b4242bebe6f144d3aa6a2cd842ac65aa$$$hccx$$$hccx"
+            "ext": "https://ownjpykxttjzuhy.jiesiwa.com"
         },
         {
             "key": "Gitcafe",
             "name": "🔍阿里|小纸条",
             "type": 3,
-            "api": "csp_Paper",
+            "api": "csp_Gitcafe",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+            "ext": "./txt/tok.txt"
+        },
+        {
+            "key": "csp_AliPS",
+            "name": "🔍阿里|盘搜索",
+            "type": 3,
+            "api": "csp_AliPS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./txt/tok.txt"
+        },
+        {
+            "key": "csp_Yisou",
+            "name": "🔍阿里|易搜索",
+            "type": 3,
+            "api": "csp_Yisou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./txt/tok.txt"
+        },
+        {
+            "key": "csp_Upyunso",
+            "name": "🔍阿里|优盘搜",
+            "type": 3,
+            "api": "csp_Upyunso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./txt/tok.txt"
         },
         {
             "key": "cctv",
@@ -540,46 +322,6 @@
             "ext": "./json/哔哩音乐.json"
         },
         {
-            "key": "小灯塔科学",
-            "name": "🌏小灯塔科学",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/小灯塔科学.json"
-        },
-        {
-            "key": "小灯塔地理",
-            "name": "🌏小灯塔地理",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/小灯塔地理.json"
-        },
-        {
-            "key": "小灯塔百科",
-            "name": "🌏小灯塔百科",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/小灯塔百科.json"
-        },
-        {
-            "key": "小灯塔国学",
-            "name": "🌏小灯塔国学",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/小灯塔国学.json"
-        },
-        {
             "key": "幼儿教育",
             "name": "🅱幼小｜衔接",
             "type": 3,
@@ -618,46 +360,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/哔哩高中.json"
-        },
-        {
-            "key": "兴趣健身",
-            "name": "🅱兴趣｜健身",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/哔哩健身.json"
-        },
-        {
-            "key": "相声小品",
-            "name": "🅱相声｜小品",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/哔哩相声.json"
-        },
-        {
-            "key": "天下美食",
-            "name": "🅱天下｜美食",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/哔哩美食.json"
-        },
-        {
-            "key": "戏曲杂苑",
-            "name": "🅱戏曲｜杂苑",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/哔哩戏曲.json"
         }
     ],
     "parses": [

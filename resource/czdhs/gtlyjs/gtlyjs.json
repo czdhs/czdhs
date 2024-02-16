@@ -1,5 +1,5 @@
 ﻿{
-  "spider": "./pg.jar;md5;711ab2f193083d2814783c3271a2da9b",
+  "spider": "./pg.jar;md5;58fc87042d81c94a11056d7b481d4c74",
   "lives": [
     {
       "name": "初秋语",
@@ -94,7 +94,7 @@
     },
     {
       "key": "lf_js_lf_live",
-      "name": "路飞 | 直播[js]",
+      "name": "电视 | 直播[js]",
       "type": 3,
       "api": "./lib/lf_live_min.js",
       "style": {
@@ -105,25 +105,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/lf_live.txt"
-    },
-    {
-      "key": "drpy_js_直播大全",
-      "name": "电视 | 直播大全[js]",
-      "type": 3,
-      "api": "./lib/live2cms.js",
-      "style": {
-        "type": "oval"
-      },
-      "changeable": 0,
-      "ext": "./lib/live2mv_data.json"
-    },
-    {
-      "key": "996影院",
-      "name": "影视 | 996[jar]",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "FirstAid",
@@ -161,6 +142,15 @@
       "filterable": 1,
       "ext": "./json/jianpian.json$$$1",
       "timeout": 60
+    },
+    {
+      "key": "996影院",
+      "name": "弹幕 | 996[jar]",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.cs1369.com$$$null$$$1"
     },
     {
       "key": "河马",
@@ -207,15 +197,51 @@
     },
     {
       "key": "PikPakShare",
-      "name": "弹幕 | PikPak",
+      "name": "弹幕 | PikPak分享[jar]",
       "type": 3,
       "api": "csp_PikPakShare",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
+      "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.json$$$./json/pikpakclass.json.txt.gz"
+      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.json$$$./json/pikpakclass.json.db.gz"
+    },
+    {
+      "key": "AliShare",
+      "name": "弹幕 | 阿里云盘分享[jar]",
+      "type": 3,
+      "api": "csp_AliShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "./lib/alishare.txt"
+    },
+    {
+      "key": "ThunderShare",
+      "name": "弹幕 | 迅雷云盘分享[jar]",
+      "type": 3,
+      "api": "csp_ThunderShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "./lib/thundershare.txt"
+    },
+    {
+      "key": "QuarkShare",
+      "name": "弹幕 | 夸克云盘分享[jar]",
+      "type": 3,
+      "api": "csp_QuarkShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "./lib/quarkshare.txt"
     },
     {
       "key": "csp_WoGG",
@@ -269,7 +295,7 @@
       "searchable": 1,
       "changeable": 1,
       "timeout": 60,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$http://www.xb6v.com$$$1"
+      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://www.66ss.org$$$1"
     },
     {
       "key": "4KHDR",
@@ -744,6 +770,14 @@
       "ext": "./lib/优酷.js"
     },
     {
+      "key": "88Pan",
+      "name": "网盘 | 88网盘[jar]",
+      "type": 3,
+      "api": "csp_EightEight",
+      "timeout": 30,
+      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://662688.xyz"
+    },
+    {
       "key": "PikaSo",
       "name": "网盘 | 皮卡搜[jar]",
       "type": 3,
@@ -858,7 +892,7 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
+      "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
     },
     {
@@ -868,7 +902,7 @@
       "api": "csp_PanSearch",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
+      "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
     },
     {
@@ -878,7 +912,7 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
+      "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
     },
     {
@@ -886,7 +920,7 @@
       "name": "阿里 | 易搜[jar]",
       "type": 3,
       "api": "csp_YiSo",
-      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
+      "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
     },
     {
@@ -894,7 +928,7 @@
       "name": "阿里 | 盘搜[jar]",
       "type": 3,
       "api": "csp_PanSou",
-      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
+      "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
     },
     {
@@ -902,7 +936,7 @@
       "name": "阿里 | up云搜[jar]",
       "type": 3,
       "api": "csp_UpYun",
-      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
+      "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
     },
     {
@@ -1144,7 +1178,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/339c76df-f8be-4f02-ae9b-b6d212202ca4/token.txt",
+      "ext": "http://127.0.0.1:9978/file/TV/token.json",
       "timeout": 30
     },
     {
@@ -1441,6 +1475,13 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/路漫漫.js"
+    },
+    {
+      "key": "drpy_js_喵次元",
+      "name": "影视 | 喵次元[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/喵次元.js"
     },
     {
       "key": "drpy_js_奇米动漫",
