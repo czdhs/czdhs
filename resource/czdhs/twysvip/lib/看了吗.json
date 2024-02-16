@@ -1,1101 +1,161 @@
-{
-	"作者": "心魔",
-	"站名": "看了吗",
-	"主页url": "https://www.ksksl.com/",
-	"热门": "",
-    "分类": "电影$dy#剧集$tv#动漫$dm#记录片$jl#",
+<!doctype html>
+<html>
+        <head>
+                    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<script type="text/javascript">
+    if (window.location.protocol === 'https:') {
+        let meta = document.createElement('meta');
+        meta.httpEquiv = "Content-Security-Policy";
+        meta.content = "upgrade-insecure-requests";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+    }
+</script>
+<title>AtomGit_开放原子开源基金会代码托管平台</title>
+<meta name="keywords" content="开源项目源代码托管，开源软件项目，开源硬件项目，开源芯片项目，AtomGit，Git">
+<meta name="description" content="AtomGit 是开放原子开源基金会旗下的具有自主核心技术的开源代码托管平台，为开源软件、开源硬件、开源芯片等各类开源项目提供基于 Git 协议的源码托管服务，推动创新资源共建共享。">
+<meta name="viewport" content="width=1280, maximum-scale=2.0, user-scalable=yes"/>
 
-	"分类url": "https://www.ksksl.com/show/{cateId}/area/{area}/by/{by}/class/{class}/year/{year}/page/{catePg}.html",
-	"数组": "class=\"dx-vod\"&&</div>",
-	"副标题": "",
-	"图片": "",
-	"标题": "",
-	"链接": "href=\"&&\"",
-	"搜索模式": "1",
-	"搜索url": "",
-	"搜索数组": "",
-	"搜索副标题": "",
-	"年代": "年份：&&</a>",
-	"地区": "地区：&&</a>",
-	"类型": "类型：&&</a>",
-	"导演": "导演：&&</p>",
-	"主演": "主演：&&</p>",
-	"简介": "class=\"vod_content\">&&<br>",
-	"嗅探词":".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
-	"线路数组": "\"player_info\"&&</div>",
-	"线路标题": "<h2>&&</h2>",
-	"播放数组": "",
-	"播放列表": "",
-	"播放标题":"",
-	"播放链接": "",
-	"筛选": {
-		"1": [
-			{
-				"key": "cateId",
-				"name": "类型",
-				"value": [
-					{
-						"n": "全部",
-						"v": "2"
-					},
-					{
-						"n": "国产剧",
-						"v": "6"
-					},
-					{
-						"n": "港台剧",
-						"v": "7"
-					},
-					{
-						"n": "日韩剧",
-						"v": "8"
-					},
-					{
-						"n": "欧美剧",
-						"v": "9"
-					},
-					{
-						"n": "海外剧",
-						"v": "10"
-					},
-					{
-						"n": "其他剧",
-						"v": "11"
-					},
-					{
-						"n": "战争片",
-						"v": "12"
-					},
-					{
-						"n": "犯罪片",
-						"v": "20"
-					},
-					{
-						"n": "惊悚片",
-						"v": "21"
-					},
-					{
-						"n": "冒险片",
-						"v": "22"
-					},
-					{
-						"n": "悬疑片",
-						"v": "23"
-					},
-					{
-						"n": "武侠片",
-						"v": "24"
-					},
-					{
-						"n": "奇幻片",
-						"v": "25"
-					},
-					{
-						"n": "纪录片",
-						"v": "26"
-					},
-					{
-						"n": "动画片",
-						"v": "27"
-					}
-				]
-			},
-			{
-				"key": "class",
-				"name": "剧情",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "喜剧",
-						"v": "喜剧"
-					},
-					{
-						"n": "爱情",
-						"v": "爱情"
-					},
-					{
-						"n": "恐怖",
-						"v": "恐怖"
-					},
-					{
-						"n": "动作",
-						"v": "动作"
-					},
-					{
-						"n": "科幻",
-						"v": "科幻"
-					},
-					{
-						"n": "剧情",
-						"v": "剧情"
-					},
-					{
-						"n": "战争",
-						"v": "战争"
-					},
-					{
-						"n": "警匪",
-						"v": "警匪"
-					},
-					{
-						"n": "犯罪",
-						"v": "犯罪"
-					},
-					{
-						"n": "动画",
-						"v": "动画"
-					},
-					{
-						"n": "奇幻",
-						"v": "奇幻"
-					},
-					{
-						"n": "武侠",
-						"v": "武侠"
-					},
-					{
-						"n": "冒险",
-						"v": "冒险"
-					},
-					{
-						"n": "枪战",
-						"v": "枪战"
-					},
-					{
-						"n": "悬疑",
-						"v": "悬疑"
-					},
-					{
-						"n": "惊悚",
-						"v": "惊悚"
-					},
-					{
-						"n": "经典",
-						"v": "经典"
-					},
-					{
-						"n": "青春",
-						"v": "青春"
-					},
-					{
-						"n": "文艺",
-						"v": "文艺"
-					},
-					{
-						"n": "古装",
-						"v": "古装"
-					},
-					{
-						"n": "历史",
-						"v": "历史"
-					},
-					{
-						"n": "运动",
-						"v": "运动"
-					},
-					{
-						"n": "农村",
-						"v": "农村"
-					},
-					{
-						"n": "儿童",
-						"v": "儿童"
-					}
-				]
-			},
-			{
-				"key": "area",
-				"name": "地区",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "大陆",
-						"v": "大陆"
-					},
-					{
-						"n": "香港",
-						"v": "香港"
-					},
-					{
-						"n": "台湾",
-						"v": "台湾"
-					},
-					{
-						"n": "美国",
-						"v": "美国"
-					},
-					{
-						"n": "法国",
-						"v": "法国"
-					},
-					{
-						"n": "英国",
-						"v": "英国"
-					},
-					{
-						"n": "日本",
-						"v": "日本"
-					},
-					{
-						"n": "韩国",
-						"v": "韩国"
-					},
-					{
-						"n": "德国",
-						"v": "德国"
-					},
-					{
-						"n": "泰国",
-						"v": "泰国"
-					},
-					{
-						"n": "印度",
-						"v": "印度"
-					},
-					{
-						"n": "意大利",
-						"v": "意大利"
-					},
-					{
-						"n": "西班牙",
-						"v": "西班牙"
-					},
-					{
-						"n": "加拿大",
-						"v": "加拿大"
-					},
-					{
-						"n": "其他",
-						"v": "其他"
-					}
-				]
-			},
-			{
-				"key": "year",
-				"name": "年份",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "2023",
-						"v": "2023"
-					},
-					{
-						"n": "2022",
-						"v": "2022"
-					},
-					{
-						"n": "2021",
-						"v": "2021"
-					},
-					{
-						"n": "2020",
-						"v": "2020"
-					},
-					{
-						"n": "2019",
-						"v": "2019"
-					},
-					{
-						"n": "2018",
-						"v": "2018"
-					},
-					{
-						"n": "2017",
-						"v": "2017"
-					},
-					{
-						"n": "2016",
-						"v": "2016"
-					},
-					{
-						"n": "2015",
-						"v": "2015"
-					},
-					{
-						"n": "2014",
-						"v": "2014"
-					},
-					{
-						"n": "2013",
-						"v": "2013"
-					},
-					{
-						"n": "2012",
-						"v": "2012"
-					},
-					{
-						"n": "2011",
-						"v": "2011"
-					},
-					{
-						"n": "2010",
-						"v": "2010"
-					}
-				]
-			},
-			{
-				"key": "by",
-				"name": "排序",
-				"value": [
-					{
-						"n": "时间",
-						"v": "time"
-					},
-					{
-						"n": "人气",
-						"v": "hits"
-					},
-					{
-						"n": "评分",
-						"v": "score"
-					}
-				]
-			}
-		],
-		"2": [
-			{
-				"key": "cateId",
-				"name": "类型",
-				"value": [
-					{
-						"n": "全部",
-						"v": "2"
-					},
-					{
-						"n": "国产剧",
-						"v": "13"
-					},
-					{
-						"n": "港台剧",
-						"v": "14"
-					},
-					{
-						"n": "日韩剧",
-						"v": "15"
-					},
-					{
-						"n": "欧美剧",
-						"v": "16"
-					},
-					{
-						"n": "泰国剧",
-						"v": "28"
-					}
-				]
-			},
-			{
-				"key": "class",
-				"name": "剧情",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "古装",
-						"v": "古装"
-					},
-					{
-						"n": "战争",
-						"v": "战争"
-					},
-					{
-						"n": "青春偶像",
-						"v": "青春偶像"
-					},
-					{
-						"n": "喜剧",
-						"v": "喜剧"
-					},
-					{
-						"n": "家庭",
-						"v": "家庭"
-					},
-					{
-						"n": "犯罪",
-						"v": "犯罪"
-					},
-					{
-						"n": "动作",
-						"v": "动作"
-					},
-					{
-						"n": "奇幻",
-						"v": "奇幻"
-					},
-					{
-						"n": "剧情",
-						"v": "剧情"
-					},
-					{
-						"n": "历史",
-						"v": "历史"
-					},
-					{
-						"n": "经典",
-						"v": "经典"
-					},
-					{
-						"n": "乡村",
-						"v": "乡村"
-					},
-					{
-						"n": "情景",
-						"v": "情景"
-					},
-					{
-						"n": "商战",
-						"v": "商战"
-					},
-					{
-						"n": "网剧",
-						"v": "网剧"
-					},
-					{
-						"n": "其他",
-						"v": "其他"
-					}
-				]
-			},
-			{
-				"key": "area",
-				"name": "地区",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "大陆",
-						"v": "大陆"
-					},
-					{
-						"n": "香港",
-						"v": "香港"
-					},
-					{
-						"n": "韩国",
-						"v": "韩国"
-					},
-					{
-						"n": "美国",
-						"v": "美国"
-					},
-					{
-						"n": "日本",
-						"v": "日本"
-					},
-					{
-						"n": "法国",
-						"v": "法国"
-					},
-					{
-						"n": "英国",
-						"v": "英国"
-					},
-					{
-						"n": "德国",
-						"v": "德国"
-					},
-					{
-						"n": "台湾",
-						"v": "台湾"
-					},
-					{
-						"n": "泰国",
-						"v": "泰国"
-					},
-					{
-						"n": "印度",
-						"v": "印度"
-					},
-					{
-						"n": "其他",
-						"v": "其他"
-					}
-				]
-			},
-			{
-				"key": "year",
-				"name": "年份",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "2023",
-						"v": "2023"
-					},
-					{
-						"n": "2022",
-						"v": "2022"
-					},
-					{
-						"n": "2021",
-						"v": "2021"
-					},
-					{
-						"n": "2020",
-						"v": "2020"
-					},
-					{
-						"n": "2019",
-						"v": "2019"
-					},
-					{
-						"n": "2018",
-						"v": "2018"
-					},
-					{
-						"n": "2017",
-						"v": "2017"
-					},
-					{
-						"n": "2016",
-						"v": "2016"
-					},
-					{
-						"n": "2015",
-						"v": "2015"
-					},
-					{
-						"n": "2014",
-						"v": "2014"
-					},
-					{
-						"n": "2013",
-						"v": "2013"
-					},
-					{
-						"n": "2012",
-						"v": "2012"
-					},
-					{
-						"n": "2011",
-						"v": "2011"
-					},
-					{
-						"n": "2010",
-						"v": "2010"
-					},
-					{
-						"n": "2009",
-						"v": "2009"
-					},
-					{
-						"n": "2008",
-						"v": "2008"
-					},
-					{
-						"n": "2006",
-						"v": "2006"
-					},
-					{
-						"n": "2005",
-						"v": "2005"
-					},
-					{
-						"n": "2004",
-						"v": "2004"
-					}
-				]
-			},
-			{
-				"key": "by",
-				"name": "排序",
-				"value": [
-					{
-						"n": "时间",
-						"v": "time"
-					},
-					{
-						"n": "人气",
-						"v": "hits"
-					},
-					{
-						"n": "评分",
-						"v": "score"
-					}
-				]
-			}
-		],
-		"3": [
-			{
-				"key": "class",
-				"name": "剧情",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "选秀",
-						"v": "选秀"
-					},
-					{
-						"n": "情感",
-						"v": "情感"
-					},
-					{
-						"n": "访谈",
-						"v": "访谈"
-					},
-					{
-						"n": "播报",
-						"v": "播报"
-					},
-					{
-						"n": "旅游",
-						"v": "旅游"
-					},
-					{
-						"n": "音乐",
-						"v": "音乐"
-					},
-					{
-						"n": "美食",
-						"v": "美食"
-					},
-					{
-						"n": "纪实",
-						"v": "纪实"
-					},
-					{
-						"n": "曲艺",
-						"v": "曲艺"
-					},
-					{
-						"n": "生活",
-						"v": "生活"
-					},
-					{
-						"n": "游戏互动",
-						"v": "游戏互动"
-					},
-					{
-						"n": "财经",
-						"v": "财经"
-					},
-					{
-						"n": "求职",
-						"v": "求职"
-					}
-				]
-			},
-			{
-				"key": "area",
-				"name": "地区",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "内地",
-						"v": "内地"
-					},
-					{
-						"n": "港台",
-						"v": "港台"
-					},
-					{
-						"n": "日韩",
-						"v": "日韩"
-					},
-					{
-						"n": "欧美",
-						"v": "欧美"
-					}
-				]
-			},
-			{
-				"key": "year",
-				"name": "年份",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "2023",
-						"v": "2023"
-					},
-					{
-						"n": "2022",
-						"v": "2022"
-					},
-					{
-						"n": "2021",
-						"v": "2021"
-					},
-					{
-						"n": "2020",
-						"v": "2020"
-					},
-					{
-						"n": "2019",
-						"v": "2019"
-					},
-					{
-						"n": "2018",
-						"v": "2018"
-					},
-					{
-						"n": "2017",
-						"v": "2017"
-					},
-					{
-						"n": "2016",
-						"v": "2016"
-					},
-					{
-						"n": "2015",
-						"v": "2015"
-					},
-					{
-						"n": "2014",
-						"v": "2014"
-					},
-					{
-						"n": "2013",
-						"v": "2013"
-					},
-					{
-						"n": "2012",
-						"v": "2012"
-					},
-					{
-						"n": "2011",
-						"v": "2011"
-					},
-					{
-						"n": "2010",
-						"v": "2010"
-					},
-					{
-						"n": "2009",
-						"v": "2009"
-					},
-					{
-						"n": "2008",
-						"v": "2008"
-					},
-					{
-						"n": "2007",
-						"v": "2007"
-					},
-					{
-						"n": "2006",
-						"v": "2006"
-					},
-					{
-						"n": "2005",
-						"v": "2005"
-					},
-					{
-						"n": "2004",
-						"v": "2004"
-					}
-				]
-			},
-			{
-				"key": "by",
-				"name": "排序",
-				"value": [
-					{
-						"n": "时间",
-						"v": "time"
-					},
-					{
-						"n": "人气",
-						"v": "hits"
-					},
-					{
-						"n": "评分",
-						"v": "score"
-					}
-				]
-			}
-		],
-		"4": [
-			{
-				"key": "class",
-				"name": "剧情",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "情感",
-						"v": "情感"
-					},
-					{
-						"n": "科幻",
-						"v": "科幻"
-					},
-					{
-						"n": "热血",
-						"v": "热血"
-					},
-					{
-						"n": "推理",
-						"v": "推理"
-					},
-					{
-						"n": "搞笑",
-						"v": "搞笑"
-					},
-					{
-						"n": "冒险",
-						"v": "冒险"
-					},
-					{
-						"n": "萝莉",
-						"v": "萝莉"
-					},
-					{
-						"n": "校园",
-						"v": "校园"
-					},
-					{
-						"n": "动作",
-						"v": "动作"
-					},
-					{
-						"n": "机战",
-						"v": "机战"
-					},
-					{
-						"n": "运动",
-						"v": "运动"
-					},
-					{
-						"n": "战争",
-						"v": "战争"
-					},
-					{
-						"n": "少年",
-						"v": "少年"
-					},
-					{
-						"n": "少女",
-						"v": "少女"
-					},
-					{
-						"n": "社会",
-						"v": "社会"
-					},
-					{
-						"n": "原创",
-						"v": "原创"
-					},
-					{
-						"n": "亲子",
-						"v": "亲子"
-					},
-					{
-						"n": "益智",
-						"v": "益智"
-					},
-					{
-						"n": "励志",
-						"v": "励志"
-					},
-					{
-						"n": "其他",
-						"v": "其他"
-					}
-				]
-			},
-			{
-				"key": "area",
-				"name": "地区",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "内地",
-						"v": "内地"
-					},
-					{
-						"n": "韩国",
-						"v": "韩国"
-					},
-					{
-						"n": "香港",
-						"v": "香港"
-					},
-					{
-						"n": "台湾",
-						"v": "台湾"
-					},
-					{
-						"n": "日本",
-						"v": "日本"
-					},
-					{
-						"n": "美国",
-						"v": "美国"
-					},
-					{
-						"n": "泰国",
-						"v": "泰国"
-					},
-					{
-						"n": "英国",
-						"v": "英国"
-					},
-					{
-						"n": "新加坡",
-						"v": "新加坡"
-					},
-					{
-						"n": "其他",
-						"v": "其他"
-					}
-				]
-			},
-			{
-				"key": "year",
-				"name": "年份",
-				"value": [
-					{
-						"n": "全部",
-						"v": ""
-					},
-					{
-						"n": "2023",
-						"v": "2023"
-					},
-					{
-						"n": "2022",
-						"v": "2022"
-					},
-					{
-						"n": "2021",
-						"v": "2021"
-					},
-					{
-						"n": "2020",
-						"v": "2020"
-					},
-					{
-						"n": "2019",
-						"v": "2019"
-					},
-					{
-						"n": "2018",
-						"v": "2018"
-					},
-					{
-						"n": "2017",
-						"v": "2017"
-					},
-					{
-						"n": "2016",
-						"v": "2016"
-					},
-					{
-						"n": "2015",
-						"v": "2015"
-					},
-					{
-						"n": "2014",
-						"v": "2014"
-					},
-					{
-						"n": "2013",
-						"v": "2013"
-					},
-					{
-						"n": "2012",
-						"v": "2012"
-					},
-					{
-						"n": "2011",
-						"v": "2011"
-					},
-					{
-						"n": "2010",
-						"v": "2010"
-					},
-					{
-						"n": "2009",
-						"v": "2009"
-					},
-					{
-						"n": "2008",
-						"v": "2008"
-					},
-					{
-						"n": "2007",
-						"v": "2007"
-					},
-					{
-						"n": "2006",
-						"v": "2006"
-					},
-					{
-						"n": "2005",
-						"v": "2005"
-					},
-					{
-						"n": "2004",
-						"v": "2004"
-					}
-				]
-			},
-			{
-				"key": "by",
-				"name": "排序",
-				"value": [
-					{
-						"n": "时间",
-						"v": "time"
-					},
-					{
-						"n": "人气",
-						"v": "hits"
-					},
-					{
-						"n": "评分",
-						"v": "score"
-					}
-				]
-			}
-		],
-		"33": [
-			{
-				"key": "by",
-				"name": "排序",
-				"value": [
-					{
-						"n": "时间",
-						"v": "time"
-					},
-					{
-						"n": "人气",
-						"v": "hits"
-					},
-					{
-						"n": "评分",
-						"v": "score"
-					}
-				]
-			}
-		]
-	}
-}
+<link rel="shortcut icon" href="/favicon.ico" type="image/png">
+<link rel="dns-prefetch" href="//g.alicdn.com">
+
+<style>
+    :root {
+        --highlight-brand: #f2fbff;
+        --bright-brand: #ccecff;
+        --border-brand: #87d2ff;
+        --primary-brand: #1b9aee;
+        --hover-brand: #0171c2;
+        --click-brand: #004f8a;
+        --heavy-brand: #002e52;
+        --color-brand1-10: #000F33 !important;
+        --color-brand1-9: #001E66 !important;
+        --color-brand1-8: #002C99 !important;
+        --color-brand1-7: #0034B3 !important;
+        --color-brand1-6: #215AE5 !important;
+        --color-brand1-5: #4077FF !important;
+        --color-brand1-4: #6699FF !important;
+        --color-brand1-3: #BFD4FF !important;
+        --color-brand1-2: #D9E5FF !important;
+        --color-brand1-1: #F0F6FF !important;
+    }
+</style>
+<script src=https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/i18n/0.0.5/codeup-assets_develop.json?timestamp=1708085418772"></script>
+
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/style/style/yunxiao-v5.min.css" />
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.css" />
+        <link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.css?timestamp=1708085418772">
+                </head>
+    <body>
+                    
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/lib/1.0.0/yunxiao-libs.min.js" nonce=""></script>
+
+<div id="container"></div>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/dist/dist/teamix-ui.min.js" nonce=""></script>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.js" nonce=""></script>
+<script type="text/javascript" nonce="">
+    window.GlobalSetting = {};
+
+    window.config = {
+                    isHomePage: true,
+                appId: '5d76215aa338520001c9e789',
+        orgId: '658befb3fe3f2a6890e983c2',
+        accessToken: '',
+        needLanguageSwitcher: false,
+        needAccountSetting: false,
+        needUserProfile: true,
+        needUserProfileCodeup: true,
+        needLogin: true,
+        hideAppStore: false,
+        hideOrgAdmin: true,
+        lang: 'zh_CN',
+        env: 'opensource'
+    };
+
+    window.UILessConfig = window.config;
+                
+    // 应用自己使用数据
+    window.FORCE = {
+        csrfTokenName: '',
+        csrfToken: '',
+        tenant: 'OPENSOURCE',
+        subRoute: '',
+        env: 'PRODUCTION',
+        assetsVersion: '5.0.0',
+        user: {
+            loginAccount:'',//账号登录名
+            nickname: '',//账号昵称
+            id: '',//账号唯一ID
+            avatar: '',
+            email:  'default_anonymous_user@default_anonymous_user' ,
+            codeUserId: '',
+        },
+        organization: {
+            id: '30420',
+            namespace_id: '31747',
+            organization_id: '658befb3fe3f2a6890e983c2',
+            path: 'czdhs',
+            user_role: 'GUEST',
+            repo_display_level: '0,20',
+            repo_visibility_level: '0,20',
+            repo_admin_access_visibility_level: '0,20',
+            repo_default_clone_type:'1',
+            is_recycler_enable:'false',
+            backup_enabled:'false',
+            i18n_support:'false',
+            commits_export_support:'false',
+            new_code_review_gray_flag:  true
+        },
+        locale: 'zh_CN',
+        remoteIP: '112.32.122.130',
+        realIpEnable: 'true',
+        recycleDays: '15',
+        pathResource: {},
+        resourceSubject: {},
+        codeReviewDetail: {},
+        assetsName: 'error'
+    };
+
+
+</script>
+
+<script type="text/javascript" nonce="">
+    window.FORCE.pathResource = {
+        type: '',
+        id: '',
+        fullPath: '',
+        fullName: '',
+        role:'',
+        parentId: '',
+        parentType: '',
+        isEmpty: '',
+        defaultBranch: '',
+        isExist: '',
+        isArchive: '',
+        visibilityValue: '',
+        isStar: '',
+        repoSize: '',
+        branchCount: '',
+        commitCount: '',
+        mergeRequestCount: '',
+        tagCount: '',
+        repoLimitSize: ''
+    };
+</script>
+<script type="text/javascript" nonce="">
+
+    window.ERROR = {};
+    window.ERROR.errorMessage = '查询文件内容失败';
+    window.ERROR.errorCode = 'SYSTEM_ERROR';
+    window.ERROR.errorAction = '请稍后重试';
+    window.ERROR.errorTraceId = '';
+
+</script>
+
+
+
+        <script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.js?timestamp=1708085418772" nonce=""></script>
+                </body>
+    </html>

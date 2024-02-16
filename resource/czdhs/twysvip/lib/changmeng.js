@@ -1,189 +1,161 @@
-// 注入全局方法 (仅支持tvbox的js1以及c#版drpy的js0，暂不支持drpy官方py版的js0)
-// 注入全局方法 (仅支持tvbox的js1以及c#版drpy的js0，暂不支持drpy官方py版的js0)
-// 注入全局方法 (仅支持tvbox的js1以及c#版drpy的js0，暂不支持drpy官方py版的js0)
-globalThis.getHeaders= function(input){
-    let t = new Date().getTime().toString();
-	let headers = {
-        'version_name': '1.0.6',
-        'version_code': '6',
-        'package_name': 'com.app.nanguatv',
-        'sign': md5('c431ea542cee9679#uBFszdEM0oL0JRn@' + t).toUpperCase(),
-        'imei': 'c431ea542cee9679',
-        'timeMillis': t,
-        'User-Agent': 'okhttp/4.6.0'
-	};
-	return headers
-}
-	
-var rule = {
-	title:'畅梦影视',
-	host:'http://ys.changmengyun.com',
-	homeUrl:'/api.php/provide/vod_rank?app=ylys&sort_type=month&imei=c431ea542cee9679&id=2&page=1',
-    url:'/api.php/provide/vod_list?app=ylys&id=fyclassfyfilter&page=fypage&imei=c431ea542cee9679',
-    detailUrl:'/api.php/provide/vod_detail?app=ylys&imei=c431ea542cee9679&id=fyid',
-    searchUrl:'/api.php/provide/search_result_more?app=ylys&video_name=**&pageSize=20&tid=0&imei=c431ea542cee9679&page=fypage',
-	searchable:2,
-	quickSearch:0,
-	filterable:1,
-	filter_url:'&area={{fl.area}}&year={{fl.year}}&type={{fl.class}}&total={{fl.total or "状态"}}&order={{fl.by or "新上线"}}',
-    filter:{
-        "2":[{"key":"class","name":"类型","value":[{"n":"全部","v":"类型"},{"n":"国产剧","v":"国产剧"},{"n":"港台剧","v":"港台剧"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":"地区"},{"n":"内地","v":"内地"},{"n":"香港地区","v":"香港地区"},{"n":"台湾地区","v":"台湾地区"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":"年份"},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"10年代","v":"10年代"},{"n":"00年代","v":"00年代"},{"n":"90年代","v":"90年代"},{"n":"80年代","v":"80年代"}]},{"key":"by","name":"排序","value":[{"n":"热播榜","v":"热播榜"},{"n":"好评榜","v":"好评榜"},{"n":"新上线","v":"新上线"}]}],
-        "1":[{"key":"class","name":"类型","value":[{"n":"全部","v":"类型"},{"n":"动作片","v":"动作片"},{"n":"喜剧片","v":"喜剧片"},{"n":"爱情片","v":"爱情片"},{"n":"科幻片","v":"科幻片"},{"n":"恐怖片","v":"恐怖片"},{"n":"剧情片","v":"剧情片"},{"n":"战争片","v":"战争片"},{"n":"惊悚片","v":"惊悚片"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":"地区"},{"n":"华语","v":"华语"},{"n":"香港地区","v":"香港地区"},{"n":"美国","v":"美国"},{"n":"欧洲","v":"欧洲"},{"n":"韩国","v":"韩国"},{"n":"日本","v":"日本"},{"n":"台湾地区","v":"台湾地区"},{"n":"泰国","v":"泰国"},{"n":"台湾地区","v":"台湾地区"},{"n":"印度","v":"印度"},{"n":"其它","v":"其它"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":"年份"},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"10年代","v":"10年代"},{"n":"00年代","v":"00年代"},{"n":"90年代","v":"90年代"},{"n":"80年代","v":"80年代"}]},{"key":"by","name":"排序","value":[{"n":"热播榜","v":"热播榜"},{"n":"好评榜","v":"好评榜"},{"n":"新上线","v":"新上线"}]}],
-        "4":[{"key":"class","name":"类型","value":[{"n":"全部","v":"类型"},{"n":"国产漫","v":"国产漫"},{"n":"欧美漫","v":"欧美漫"},{"n":"日韩漫","v":"日韩漫"},{"n":"港台漫","v":"港台漫"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":"地区"},{"n":"中国大陆","v":"中国大陆"},{"n":"日本","v":"日本"},{"n":"韩国","v":"韩国"},{"n":"欧美","v":"欧美"},{"n":"其它","v":"其它"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":"年份"},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"10年代","v":"10年代"},{"n":"00年代","v":"00年代"},{"n":"90年代","v":"90年代"},{"n":"80年代","v":"80年代"}]},{"key":"by","name":"排序","value":[{"n":"热播榜","v":"热播榜"},{"n":"新上线","v":"新上线"}]},{"key":"total","name":"状态","value":[{"n":"全部","v":"状态"},{"n":"连载","v":"连载"},{"n":"完结","v":"完结"}]}],
-        "3":[{"key":"class","name":"类型","value":[{"n":"全部","v":"类型"},{"n":"大陆","v":"大陆"},{"n":"港台","v":"港台"},{"n":"日韩","v":"日韩"},{"n":"欧美","v":"欧美"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":"地区"},{"n":"内地","v":"内地"},{"n":"港台","v":"港台"},{"n":"日韩","v":"日韩"},{"n":"欧美","v":"欧美"},{"n":"其它","v":"其它"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":"年份"},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"10年代","v":"10年代"},{"n":"00年代","v":"00年代"},{"n":"90年代","v":"90年代"},{"n":"80年代","v":"80年代"}]},{"key":"by","name":"排序","value":[{"n":"热播榜","v":"热播榜"},{"n":"新上线","v":"新上线"}]}],
-        "46":[{"key":"class","name":"类型","value":[{"n":"全部","v":"类型"},{"n":"日韩剧","v":"日韩剧"},{"n":"欧美剧","v":"欧美剧"},{"n":"海外剧","v":"海外剧"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":"地区"},{"n":"韩国","v":"韩国"},{"n":"美剧","v":"美剧"},{"n":"日本","v":"日本"},{"n":"泰国","v":"泰国"},{"n":"英国","v":"英国"},{"n":"新加坡","v":"新加坡"},{"n":"其他","v":"其他"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":"年份"},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"10年代","v":"10年代"},{"n":"00年代","v":"00年代"},{"n":"90年代","v":"90年代"},{"n":"80年代","v":"80年代"}]},{"key":"by","name":"排序","value":[{"n":"热播榜","v":"热播榜"},{"n":"好评榜","v":"好评榜"},{"n":"新上线","v":"新上线"}]}]
-    },
-	headers:{
-		"User-Agent":"okhttp/4.6.0"
-	},
-	timeout:5000,
-	class_name:'电视剧&电影&动漫&综艺&海外精选', // /api.php/provide/home_nav
-	class_url:'2&1&4&3&46',
-	limit:20,
-	play_parse:true,
-	lazy:`js:
-        try {
-            function getvideo(url) {
-                let jData = JSON.parse(request(url, {
-                    headers: getHeaders(url)
-                }));
-                if (jData.code == 1) {
-                    return jData.data.url
-                } else {
-                    return 'http://43.154.104.152:1234/jhapi/cs.php?url=' + url.split('=')[1]
-                }
-            }
-            if (/,/.test(input)) {
-                let mjurl = input.split(',')[1]
-                let videoUrl = getvideo(mjurl);
-                input = {
-                    jx: 0,
-                    url: videoUrl,
-                    parse: 0,
-                    header: JSON.stringify({
-                        'user-agent': 'Lavf/58.12.100'
-                    })
-                }
-            } else {
-                let videoUrl = getvideo(input);
-                if (/jhapi/.test(videoUrl)) {
-                    videoUrl = getvideo(videoUrl);
-                    input = {
-                        jx: 0,
-                        url: videoUrl,
-                        parse: 0,
-                        header: JSON.stringify({
-                            'user-agent': 'Lavf/58.12.100'
-                        })
-                    }
-                } else {
-                    input = {
-                        jx: 0,
-                        url: videoUrl,
-                        parse: 0
-                    }
-                }
-            }
-        } catch (e) {
-            log(e.toString())
-        }
-	`,
-	推荐:`js:
-        var d = [];
-        let html = request(input, {
-            headers: getHeaders(input)
-        });
-        html = JSON.parse(html);
-        html.forEach(function(it) {
-            d.push({
-                title: it.name,
-                img: it.img,
-                desc: it.remarks,
-                url: it.id
-            })
-        });
-        setResult(d);
-    `,
-	一级:`js:
-		var d = [];
-		let html = request(input, {
-			headers: getHeaders(input)
-		});
-		html = JSON.parse(html);
-		html.list.forEach(function(it) {
-			d.push({
-				title: it.name,
-				img: it.img,
-				desc: it.msg,
-				url: it.id
-			})
-		});
-		setResult(d);
-	`,
-	二级:`js:
-        var d = [];
-        VOD = {
-            vod_id: input.split('id=')[1]
-        };
-        try {
-            let html = request(input, {
-                headers: getHeaders(input)
-            });
-            html = JSON.parse(html);
-            let node = html.data;
-            VOD = {
-                vod_name: node['name'],
-                vod_pic: node['img'],
-                type_name: node['type'],
-                vod_year: node['year'],
-                vod_remarks: '更新至: ' + node['msg'] + ' / 评分: ' + node['score'],
-                vod_content: node['info'].strip()
-            };
-            let episodes = node.player_info;
-            let playMap = {};
-            if (typeof play_url === 'undefined') {
-                var play_url = ''
-            }
-            episodes.forEach(function(ep) {
-                let playurls = ep['video_info'];
-                playurls.forEach(function(playurl) {
-                    let source = ep['show'];
-                    if (!playMap.hasOwnProperty(source)) {
-                        playMap[source] = []
-                    }
-                    playMap[source].append(playurl['name'].strip() + '$' + play_url + urlencode(playurl['url']))
-                })
-            });
-            let playFrom = [];
-            let playList = [];
-            Object.keys(playMap)
-                .forEach(function(key) {
-                    playFrom.append(key);
-                    playList.append(playMap[key].join('#'))
-                });
-            let vod_play_from = playFrom.join('$$$');
-            let vod_play_url = playList.join('$$$');
-            VOD['vod_play_from'] = vod_play_from;
-            VOD['vod_play_url'] = vod_play_url
-        } catch (e) {
-            log('获取二级详情页发生错误:' + e.message)
-        }
-	`,
-	搜索:`js:
-        var d = [];
-        let html = request(input, {
-            headers: getHeaders(input)
-        });
-        html = JSON.parse(html);
-        html.data.forEach(function(it) {
-            d.push({
-                title: it.video_name,
-                img: it.img,
-                desc: it.qingxidu + '/' + it.category,
-                url: it.id,
-                content: it.blurb
-            })
-        });
-        setResult(d);
-    `,
-}
+<!doctype html>
+<html>
+        <head>
+                    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<script type="text/javascript">
+    if (window.location.protocol === 'https:') {
+        let meta = document.createElement('meta');
+        meta.httpEquiv = "Content-Security-Policy";
+        meta.content = "upgrade-insecure-requests";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+    }
+</script>
+<title>AtomGit_开放原子开源基金会代码托管平台</title>
+<meta name="keywords" content="开源项目源代码托管，开源软件项目，开源硬件项目，开源芯片项目，AtomGit，Git">
+<meta name="description" content="AtomGit 是开放原子开源基金会旗下的具有自主核心技术的开源代码托管平台，为开源软件、开源硬件、开源芯片等各类开源项目提供基于 Git 协议的源码托管服务，推动创新资源共建共享。">
+<meta name="viewport" content="width=1280, maximum-scale=2.0, user-scalable=yes"/>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/png">
+<link rel="dns-prefetch" href="//g.alicdn.com">
+
+<style>
+    :root {
+        --highlight-brand: #f2fbff;
+        --bright-brand: #ccecff;
+        --border-brand: #87d2ff;
+        --primary-brand: #1b9aee;
+        --hover-brand: #0171c2;
+        --click-brand: #004f8a;
+        --heavy-brand: #002e52;
+        --color-brand1-10: #000F33 !important;
+        --color-brand1-9: #001E66 !important;
+        --color-brand1-8: #002C99 !important;
+        --color-brand1-7: #0034B3 !important;
+        --color-brand1-6: #215AE5 !important;
+        --color-brand1-5: #4077FF !important;
+        --color-brand1-4: #6699FF !important;
+        --color-brand1-3: #BFD4FF !important;
+        --color-brand1-2: #D9E5FF !important;
+        --color-brand1-1: #F0F6FF !important;
+    }
+</style>
+<script src=https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/i18n/0.0.5/codeup-assets_develop.json?timestamp=1708085418847"></script>
+
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/style/style/yunxiao-v5.min.css" />
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.css" />
+        <link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.css?timestamp=1708085418847">
+                </head>
+    <body>
+                    
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/lib/1.0.0/yunxiao-libs.min.js" nonce=""></script>
+
+<div id="container"></div>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/dist/dist/teamix-ui.min.js" nonce=""></script>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.js" nonce=""></script>
+<script type="text/javascript" nonce="">
+    window.GlobalSetting = {};
+
+    window.config = {
+                    isHomePage: true,
+                appId: '5d76215aa338520001c9e789',
+        orgId: '658befb3fe3f2a6890e983c2',
+        accessToken: '',
+        needLanguageSwitcher: false,
+        needAccountSetting: false,
+        needUserProfile: true,
+        needUserProfileCodeup: true,
+        needLogin: true,
+        hideAppStore: false,
+        hideOrgAdmin: true,
+        lang: 'zh_CN',
+        env: 'opensource'
+    };
+
+    window.UILessConfig = window.config;
+                
+    // 应用自己使用数据
+    window.FORCE = {
+        csrfTokenName: '',
+        csrfToken: '',
+        tenant: 'OPENSOURCE',
+        subRoute: '',
+        env: 'PRODUCTION',
+        assetsVersion: '5.0.0',
+        user: {
+            loginAccount:'',//账号登录名
+            nickname: '',//账号昵称
+            id: '',//账号唯一ID
+            avatar: '',
+            email:  'default_anonymous_user@default_anonymous_user' ,
+            codeUserId: '',
+        },
+        organization: {
+            id: '30420',
+            namespace_id: '31747',
+            organization_id: '658befb3fe3f2a6890e983c2',
+            path: 'czdhs',
+            user_role: 'GUEST',
+            repo_display_level: '0,20',
+            repo_visibility_level: '0,20',
+            repo_admin_access_visibility_level: '0,20',
+            repo_default_clone_type:'1',
+            is_recycler_enable:'false',
+            backup_enabled:'false',
+            i18n_support:'false',
+            commits_export_support:'false',
+            new_code_review_gray_flag:  true
+        },
+        locale: 'zh_CN',
+        remoteIP: '112.32.122.130',
+        realIpEnable: 'true',
+        recycleDays: '15',
+        pathResource: {},
+        resourceSubject: {},
+        codeReviewDetail: {},
+        assetsName: 'error'
+    };
+
+
+</script>
+
+<script type="text/javascript" nonce="">
+    window.FORCE.pathResource = {
+        type: '',
+        id: '',
+        fullPath: '',
+        fullName: '',
+        role:'',
+        parentId: '',
+        parentType: '',
+        isEmpty: '',
+        defaultBranch: '',
+        isExist: '',
+        isArchive: '',
+        visibilityValue: '',
+        isStar: '',
+        repoSize: '',
+        branchCount: '',
+        commitCount: '',
+        mergeRequestCount: '',
+        tagCount: '',
+        repoLimitSize: ''
+    };
+</script>
+<script type="text/javascript" nonce="">
+
+    window.ERROR = {};
+    window.ERROR.errorMessage = '查询文件内容失败';
+    window.ERROR.errorCode = 'SYSTEM_ERROR';
+    window.ERROR.errorAction = '请稍后重试';
+    window.ERROR.errorTraceId = '';
+
+</script>
+
+
+
+        <script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.js?timestamp=1708085418847" nonce=""></script>
+                </body>
+    </html>

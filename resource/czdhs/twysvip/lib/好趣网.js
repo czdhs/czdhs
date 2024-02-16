@@ -1,23 +1,161 @@
-var rule = {
-	title:'好趣网',
-	编码:'GBK',//不填就默认utf-8
-	搜索编码:'GBK',//不填则不编码，默认都是按utf-8.可优先于全局编码属性.比如网页源码编码是gbk,这里可以指定utf-8搜索独立编码。多数情况这个属性不填或者填写gbk应对特殊的网站搜索
-	host:'http://tv.haoqu99.com',
-	url: '/fyclass',
-	searchUrl: '/e/sch/index.php?page=fypage&keyboard=**&sear=1',
-	searchable:2,//是否启用全局搜索,
-	quickSearch:0,//是否启用快速搜索,
-	headers:{
-		'User-Agent': 'MOBILE_UA'
-	},
-	timeout:5000,//网站的全局请求超时,默认是3000毫秒
-	class_name:'央视&卫视频道&港澳台频道&国外电视台&广东&湖南&江苏&安徽&浙江&北京&辽宁&江西&山东&黑龙江&上海&云南&四川&河南&湖北&福建&重庆&河北&吉林&广西&山西&陕西&宁夏&海南&甘肃&新疆&内蒙古&天津&贵州&青海&西藏',
-	class_url:'1&2&4&5&3/guangdong&3/hunan&3/jiangsu&3/anhui&3/zhejiang&3/beijing&3/liaoning&3/jiangxi&3/shandong&3/heilongjiang&3/shanghai&3/yunnan&3/sichuan&3/henan&3/hubei&3/fujian&3/zhongqing&3/hebei&3/jilin&3/guangxi&3/shan-xi&3/shanxi&3/ningxia&3/hainan&3/gansu&3/xinjiang&3/neimenggu&3/tianjin&3/guizhou&3/qinghai&3/xizang',
-	play_parse:true,
-	lazy:'js:input=input.replace("tv", "m")',
-	limit:6,
-	推荐: '.p-list-sya&&li;.s&&Text;img&&src;;a&&href',
-	一级: '.bx-sya&&li;span&&Text;img&&src;;a&&href',
-	二级: '*',
-	搜索: 'div.list-box.J-medal&&li;a&&Text;;;a&&href',
-}
+<!doctype html>
+<html>
+        <head>
+                    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<script type="text/javascript">
+    if (window.location.protocol === 'https:') {
+        let meta = document.createElement('meta');
+        meta.httpEquiv = "Content-Security-Policy";
+        meta.content = "upgrade-insecure-requests";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+    }
+</script>
+<title>AtomGit_开放原子开源基金会代码托管平台</title>
+<meta name="keywords" content="开源项目源代码托管，开源软件项目，开源硬件项目，开源芯片项目，AtomGit，Git">
+<meta name="description" content="AtomGit 是开放原子开源基金会旗下的具有自主核心技术的开源代码托管平台，为开源软件、开源硬件、开源芯片等各类开源项目提供基于 Git 协议的源码托管服务，推动创新资源共建共享。">
+<meta name="viewport" content="width=1280, maximum-scale=2.0, user-scalable=yes"/>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/png">
+<link rel="dns-prefetch" href="//g.alicdn.com">
+
+<style>
+    :root {
+        --highlight-brand: #f2fbff;
+        --bright-brand: #ccecff;
+        --border-brand: #87d2ff;
+        --primary-brand: #1b9aee;
+        --hover-brand: #0171c2;
+        --click-brand: #004f8a;
+        --heavy-brand: #002e52;
+        --color-brand1-10: #000F33 !important;
+        --color-brand1-9: #001E66 !important;
+        --color-brand1-8: #002C99 !important;
+        --color-brand1-7: #0034B3 !important;
+        --color-brand1-6: #215AE5 !important;
+        --color-brand1-5: #4077FF !important;
+        --color-brand1-4: #6699FF !important;
+        --color-brand1-3: #BFD4FF !important;
+        --color-brand1-2: #D9E5FF !important;
+        --color-brand1-1: #F0F6FF !important;
+    }
+</style>
+<script src=https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/i18n/0.0.5/codeup-assets_develop.json?timestamp=1708085418829"></script>
+
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/style/style/yunxiao-v5.min.css" />
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.css" />
+        <link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.css?timestamp=1708085418829">
+                </head>
+    <body>
+                    
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/lib/1.0.0/yunxiao-libs.min.js" nonce=""></script>
+
+<div id="container"></div>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/dist/dist/teamix-ui.min.js" nonce=""></script>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.js" nonce=""></script>
+<script type="text/javascript" nonce="">
+    window.GlobalSetting = {};
+
+    window.config = {
+                    isHomePage: true,
+                appId: '5d76215aa338520001c9e789',
+        orgId: '658befb3fe3f2a6890e983c2',
+        accessToken: '',
+        needLanguageSwitcher: false,
+        needAccountSetting: false,
+        needUserProfile: true,
+        needUserProfileCodeup: true,
+        needLogin: true,
+        hideAppStore: false,
+        hideOrgAdmin: true,
+        lang: 'zh_CN',
+        env: 'opensource'
+    };
+
+    window.UILessConfig = window.config;
+                
+    // 应用自己使用数据
+    window.FORCE = {
+        csrfTokenName: '',
+        csrfToken: '',
+        tenant: 'OPENSOURCE',
+        subRoute: '',
+        env: 'PRODUCTION',
+        assetsVersion: '5.0.0',
+        user: {
+            loginAccount:'',//账号登录名
+            nickname: '',//账号昵称
+            id: '',//账号唯一ID
+            avatar: '',
+            email:  'default_anonymous_user@default_anonymous_user' ,
+            codeUserId: '',
+        },
+        organization: {
+            id: '30420',
+            namespace_id: '31747',
+            organization_id: '658befb3fe3f2a6890e983c2',
+            path: 'czdhs',
+            user_role: 'GUEST',
+            repo_display_level: '0,20',
+            repo_visibility_level: '0,20',
+            repo_admin_access_visibility_level: '0,20',
+            repo_default_clone_type:'1',
+            is_recycler_enable:'false',
+            backup_enabled:'false',
+            i18n_support:'false',
+            commits_export_support:'false',
+            new_code_review_gray_flag:  true
+        },
+        locale: 'zh_CN',
+        remoteIP: '112.32.122.130',
+        realIpEnable: 'true',
+        recycleDays: '15',
+        pathResource: {},
+        resourceSubject: {},
+        codeReviewDetail: {},
+        assetsName: 'error'
+    };
+
+
+</script>
+
+<script type="text/javascript" nonce="">
+    window.FORCE.pathResource = {
+        type: '',
+        id: '',
+        fullPath: '',
+        fullName: '',
+        role:'',
+        parentId: '',
+        parentType: '',
+        isEmpty: '',
+        defaultBranch: '',
+        isExist: '',
+        isArchive: '',
+        visibilityValue: '',
+        isStar: '',
+        repoSize: '',
+        branchCount: '',
+        commitCount: '',
+        mergeRequestCount: '',
+        tagCount: '',
+        repoLimitSize: ''
+    };
+</script>
+<script type="text/javascript" nonce="">
+
+    window.ERROR = {};
+    window.ERROR.errorMessage = '查询文件内容失败';
+    window.ERROR.errorCode = 'SYSTEM_ERROR';
+    window.ERROR.errorAction = '请稍后重试';
+    window.ERROR.errorTraceId = '';
+
+</script>
+
+
+
+        <script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.js?timestamp=1708085418829" nonce=""></script>
+                </body>
+    </html>

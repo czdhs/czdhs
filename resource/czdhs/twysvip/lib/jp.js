@@ -1,90 +1,161 @@
-var rule = {
-    title:'荐片',
-    host:'http://api2.rinhome.com',
-    // homeUrl:'https://yjpapipxblwdohpakljwg.hxhzs.com/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
-    homeUrl:'/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
-    // url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
-    url:'/api/crumb/list?area=0&page=fypage&type=0&limit=24&fyfilter',
-    class_name:'全部&电影&电视剧&动漫&综艺',     // 筛选 /api/term/ad_fenlei?limit=10&page=1
-    class_url:'0&1&2&3&4',
-    detailUrl:'/api/node/detail?channel=wandoujia&token=&id=fyid',//二级详情拼接链接(json格式用)
-    searchUrl:'/api/video/search?key=**&page=fypage',
-    searchable:2,
-    quickSearch:0,
-    filterable:1,
-    filter:{
-        "0":[{"key":"year","name":"年代","value":[{"n":"全部","v":"0"},{"n":"2023","v":"153"},{"n":"2022","v":"101"},{"n":"2021","v":"118"},{"n":"2020","v":"16"},{"n":"2019","v":"7"},{"n":"2018","v":"2"},{"n":"2017","v":"3"},{"n":"2016","v":"22"}]},{"key":"sort","name":"排序","value":[{"n":"热门","v":"hot"},{"n":"评分","v":"rating"},{"n":"更新","v":"update"}]}],
-        "1":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"1"},{"n":"首推","v":"5"},{"n":"动作","v":"6"},{"n":"喜剧","v":"7"},{"n":"战争","v":"8"},{"n":"恐怖","v":"9"},{"n":"剧情","v":"10"},{"n":"爱情","v":"11"},{"n":"科幻","v":"12"},{"n":"动画","v":"13"}]},{"key":"year","name":"年代","value":[{"n":"全部","v":"0"},{"n":"2023","v":"153"},{"n":"2022","v":"101"},{"n":"2021","v":"118"},{"n":"2020","v":"16"},{"n":"2019","v":"7"},{"n":"2018","v":"2"},{"n":"2017","v":"3"},{"n":"2016","v":"22"}]},{"key":"sort","name":"排序","value":[{"n":"热门","v":"hot"},{"n":"评分","v":"rating"},{"n":"更新","v":"update"}]}],
-        "2":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"2"},{"n":"首推","v":"14"},{"n":"国产","v":"15"},{"n":"港台","v":"16"},{"n":"日韩","v":"17"},{"n":"海外","v":"18"}]},{"key":"year","name":"年代","value":[{"n":"全部","v":"0"},{"n":"2023","v":"153"},{"n":"2022","v":"101"},{"n":"2021","v":"118"},{"n":"2020","v":"16"},{"n":"2019","v":"7"},{"n":"2018","v":"2"},{"n":"2017","v":"3"},{"n":"2016","v":"22"}]},{"key":"sort","name":"排序","value":[{"n":"热门","v":"hot"},{"n":"评分","v":"rating"},{"n":"更新","v":"update"}]}],
-        "3":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"3"},{"n":"首推","v":"19"},{"n":"海外","v":"20"},{"n":"日本","v":"21"},{"n":"国产","v":"22"}]},{"key":"year","name":"年代","value":[{"n":"全部","v":"0"},{"n":"2023","v":"153"},{"n":"2022","v":"101"},{"n":"2021","v":"118"},{"n":"2020","v":"16"},{"n":"2019","v":"7"},{"n":"2018","v":"2"},{"n":"2017","v":"3"},{"n":"2016","v":"22"}]},{"key":"sort","name":"排序","value":[{"n":"热门","v":"hot"},{"n":"评分","v":"rating"},{"n":"更新","v":"update"}]}],
-        "4":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"4"},{"n":"首推","v":"23"},{"n":"国产","v":"24"},{"n":"海外","v":"25"},{"n":"港台","v":"26"}]},{"key":"year","name":"年代","value":[{"n":"全部","v":"0"},{"n":"2023","v":"153"},{"n":"2022","v":"101"},{"n":"2021","v":"118"},{"n":"2020","v":"16"},{"n":"2019","v":"7"},{"n":"2018","v":"2"},{"n":"2017","v":"3"},{"n":"2016","v":"22"}]},{"key":"sort","name":"排序","value":[{"n":"热门","v":"hot"},{"n":"评分","v":"rating"},{"n":"更新","v":"update"}]}]
-    },
-    // filter_url:'sort={{fl.sort or "hot"}}&year={{fl.year or "0"}}',
-    filter_url:'sort={{fl.sort or "update"}}&year={{fl.year or "0"}}&category_id={{fl.cateId}}',
-	filter_def:{
-		0:{cateId:'0'},
-        1:{cateId:'1'},
-		2:{cateId:'2'},
-		3:{cateId:'3'},
-		4:{cateId:'4'}
-	},
-    headers:{
-        'User-Agent':'jianpian-android/350',
-        'JPAUTH':'y261ow7kF2dtzlxh1GS9EB8nbTxNmaK/QQIAjctlKiEv'
-    },
-    timeout:5000,
-    limit:8,
-    play_parse:true,
-    play_json:[{
-        re:'*',
-        json:{
-            parse:0,
-            jx:0
-        }
-    }],
-    lazy:'',
-    // double:true,
-    图片来源:'@Referer=www.jianpianapp.com@User-Agent=jianpian-version353',
-    // 推荐:'json:data;room;*;cover;*;*',
-    推荐:'json:.video;*;*;*;*',
-    一级:'json:data;title;path;playlist.title;id',
-    二级:{
-        // title:'data.title',
-        title:'data.title;data.types[0].name',
-        // desc:';data.description;data.id',
-        desc:'data.score;data.year.title;data.area.title;data.actors[0].name;data.directors[0].name',
-        img:'data.thumbnail',
-        // content:'data.thumbnail',
-        content:'data.description',
-        is_json:1,
-        tabs:`js:
-            TABS = [];
-            if (html.data.have_ftp_ur == 1) {
-                TABS.push("边下边播超清版")
-            }
-            if (html.data.have_m3u8_ur == 1) {
-                TABS.push("在线点播普清版")
-            }
-        `,
-        lists:`js:
-            log(TABS);
-            LISTS = [];
-            TABS.forEach(function(tab) {
-                if (/边下边播/.test(tab)) {
-                    let ftp = html.data.new_ftp_list;
-                    let d = ftp.map(function(it) {
-                        return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
-                    });
-                    LISTS.push(d)
-                } else if (/在线点播/.test(tab)) {
-                    let m3u = html.data.new_m3u8_list;
-                    let d = m3u.map(function(it) {
-                        return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
-                    });
-                    LISTS.push(d)
-                }
-            });
-        `,
-    },
-    搜索:'json:data;*;thumbnail;mask;*',
-}
+<!doctype html>
+<html>
+        <head>
+                    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<script type="text/javascript">
+    if (window.location.protocol === 'https:') {
+        let meta = document.createElement('meta');
+        meta.httpEquiv = "Content-Security-Policy";
+        meta.content = "upgrade-insecure-requests";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+    }
+</script>
+<title>AtomGit_开放原子开源基金会代码托管平台</title>
+<meta name="keywords" content="开源项目源代码托管，开源软件项目，开源硬件项目，开源芯片项目，AtomGit，Git">
+<meta name="description" content="AtomGit 是开放原子开源基金会旗下的具有自主核心技术的开源代码托管平台，为开源软件、开源硬件、开源芯片等各类开源项目提供基于 Git 协议的源码托管服务，推动创新资源共建共享。">
+<meta name="viewport" content="width=1280, maximum-scale=2.0, user-scalable=yes"/>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/png">
+<link rel="dns-prefetch" href="//g.alicdn.com">
+
+<style>
+    :root {
+        --highlight-brand: #f2fbff;
+        --bright-brand: #ccecff;
+        --border-brand: #87d2ff;
+        --primary-brand: #1b9aee;
+        --hover-brand: #0171c2;
+        --click-brand: #004f8a;
+        --heavy-brand: #002e52;
+        --color-brand1-10: #000F33 !important;
+        --color-brand1-9: #001E66 !important;
+        --color-brand1-8: #002C99 !important;
+        --color-brand1-7: #0034B3 !important;
+        --color-brand1-6: #215AE5 !important;
+        --color-brand1-5: #4077FF !important;
+        --color-brand1-4: #6699FF !important;
+        --color-brand1-3: #BFD4FF !important;
+        --color-brand1-2: #D9E5FF !important;
+        --color-brand1-1: #F0F6FF !important;
+    }
+</style>
+<script src=https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/i18n/0.0.5/codeup-assets_develop.json?timestamp=1708085418819"></script>
+
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/style/style/yunxiao-v5.min.css" />
+<link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.css" />
+        <link rel="stylesheet" href="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.css?timestamp=1708085418819">
+                </head>
+    <body>
+                    
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/lib/1.0.0/yunxiao-libs.min.js" nonce=""></script>
+
+<div id="container"></div>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/yunxiao-fe/teamix-ui/1.5.3/dist/dist/teamix-ui.min.js" nonce=""></script>
+
+<script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/public/ais-fed/navigation-sdk/2.2.69/next-indexWithoutTeamixUI.js" nonce=""></script>
+<script type="text/javascript" nonce="">
+    window.GlobalSetting = {};
+
+    window.config = {
+                    isHomePage: true,
+                appId: '5d76215aa338520001c9e789',
+        orgId: '658befb3fe3f2a6890e983c2',
+        accessToken: '',
+        needLanguageSwitcher: false,
+        needAccountSetting: false,
+        needUserProfile: true,
+        needUserProfileCodeup: true,
+        needLogin: true,
+        hideAppStore: false,
+        hideOrgAdmin: true,
+        lang: 'zh_CN',
+        env: 'opensource'
+    };
+
+    window.UILessConfig = window.config;
+                
+    // 应用自己使用数据
+    window.FORCE = {
+        csrfTokenName: '',
+        csrfToken: '',
+        tenant: 'OPENSOURCE',
+        subRoute: '',
+        env: 'PRODUCTION',
+        assetsVersion: '5.0.0',
+        user: {
+            loginAccount:'',//账号登录名
+            nickname: '',//账号昵称
+            id: '',//账号唯一ID
+            avatar: '',
+            email:  'default_anonymous_user@default_anonymous_user' ,
+            codeUserId: '',
+        },
+        organization: {
+            id: '30420',
+            namespace_id: '31747',
+            organization_id: '658befb3fe3f2a6890e983c2',
+            path: 'czdhs',
+            user_role: 'GUEST',
+            repo_display_level: '0,20',
+            repo_visibility_level: '0,20',
+            repo_admin_access_visibility_level: '0,20',
+            repo_default_clone_type:'1',
+            is_recycler_enable:'false',
+            backup_enabled:'false',
+            i18n_support:'false',
+            commits_export_support:'false',
+            new_code_review_gray_flag:  true
+        },
+        locale: 'zh_CN',
+        remoteIP: '112.32.122.130',
+        realIpEnable: 'true',
+        recycleDays: '15',
+        pathResource: {},
+        resourceSubject: {},
+        codeReviewDetail: {},
+        assetsName: 'error'
+    };
+
+
+</script>
+
+<script type="text/javascript" nonce="">
+    window.FORCE.pathResource = {
+        type: '',
+        id: '',
+        fullPath: '',
+        fullName: '',
+        role:'',
+        parentId: '',
+        parentType: '',
+        isEmpty: '',
+        defaultBranch: '',
+        isExist: '',
+        isArchive: '',
+        visibilityValue: '',
+        isStar: '',
+        repoSize: '',
+        branchCount: '',
+        commitCount: '',
+        mergeRequestCount: '',
+        tagCount: '',
+        repoLimitSize: ''
+    };
+</script>
+<script type="text/javascript" nonce="">
+
+    window.ERROR = {};
+    window.ERROR.errorMessage = '查询文件内容失败';
+    window.ERROR.errorCode = 'SYSTEM_ERROR';
+    window.ERROR.errorAction = '请稍后重试';
+    window.ERROR.errorTraceId = '';
+
+</script>
+
+
+
+        <script src="https://atomgit-opensource.oss-cn-beijing.aliyuncs.com/ais-fed/code-assets/5.0.42-o/index.js?timestamp=1708085418819" nonce=""></script>
+                </body>
+    </html>
