@@ -205,6 +205,10 @@
         {
             "name": "❤️abc❤️",
             "url": "https://atomgit.com/czdhs/czdhs/raw/main/resource/czdhs/abc/abc.json"
+        },
+        {
+            "name": "yihengyun",
+            "url": "https://atomgit.com/czdhs/czdhs/raw/main/resource/czdhs/yihengyun/yihengyun.json"
         }
     ]
 }
