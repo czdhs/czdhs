@@ -172,7 +172,11 @@
         },
         {
             "name": "❤️PG❤️",
-            "url": "https://atomgit.com/czdhs/czdhs/raw/main/resource/czdhs/PG/PG.json"
+            "url": "https://atomgit.com/czdhs/czdhs/raw/main/resource/czdhs/PG/api.json"
+        },
+        {
+            "name": "❤️PGTest❤️",
+            "url": "https://atomgit.com/czdhs/czdhs/raw/main/resource/czdhs/PGTest/api.json"
         },
         {
             "name": "❤️道长JS❤️",
