@@ -194,32 +194,8 @@ CCTV-17,http://[2409:8087:2001:20:2800:0:df6e:eb0b]:80/wh7f454c46tw1746687450_31
 CCTV- 高尔夫网球,http://[2409:8087:2001:20:2800:0:df6e:eb05]/ott.mobaibox.com/PLTV/3/224/3221228138/index.m3u8?
 
 【卫视专区】,#genre#
-湖南卫视,https://live.v1.mk/api/bestv.php?id=hunanwshd8m/8000000
-浙江卫视,https://live.v1.mk/api/bestv.php?id=zjwshd8m/8000000
-江苏卫视,https://live.v1.mk/api/bestv.php?id=jswshd8m/8000000
-东方卫视,https://live.v1.mk/api/bestv.php?id=dfwshd8m/8000000
-广东卫视,https://live.v1.mk/api/bestv.php?id=gdwshd8m/8000000
-广西卫视,https://live.v1.mk/api/bestv.php?id=gxwshd8m/8000000
-深圳卫视,https://live.v1.mk/api/bestv.php?id=szwshd8m/8000000
-北京卫视,https://live.v1.mk/api/bestv.php?id=bjwshd8m/8000000
-四川卫视,https://live.v1.mk/api/bestv.php?id=scwshd/8000000
-天津卫视,https://live.v1.mk/api/bestv.php?id=tjwshd8m/8000000
-安徽卫视,https://live.v1.mk/api/bestv.php?id=ahwshd8m/8000000
-山东卫视,https://live.v1.mk/api/bestv.php?id=sdws8m/8000000
-江西卫视,https://live.v1.mk/api/bestv.php?id=jxws8m/8000000
-河北卫视,https://live.v1.mk/api/bestv.php?id=hbwshd8m/8000000
-河南卫视,https://live.v1.mk/api/bestv.php?id=hnwshd8m/8000000
-海南卫视,https://live.v1.mk/api/bestv.php?id=hainanwshd8m/8000000
-贵州卫视,https://live.v1.mk/api/bestv.php?id=gzwshd8m/8000000
-辽宁卫视,https://live.v1.mk/api/bestv.php?id=lnwshd8m/8000000
-重庆卫视,https://live.v1.mk/api/bestv.php?id=cqws8m/8000000
-吉林卫视,https://live.v1.mk/api/bestv.php?id=jlwshd8m/8000000
-云南卫视,https://live.v1.mk/api/bestv.php?id=ynwshd8m/8000000
-黑龙江卫视,https://live.v1.mk/api/bestv.php?id=hljwshd8m/8000000
-
 湖南卫视,http://[2409:8087:2001:20:2800:0:df6e:eb0a]:80/wh7f454c46tw210731412_242842946/ott.mobaibox.com/PLTV/3/224/3221227320/index.m3u8?icpid=3&RTS=1674380326&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
 湖南卫视,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001339/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-湖南卫视,http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221226000/index.m3u8
 浙江卫视,http://[2409:8087:2001:20:2800:0:df6e:eb02]:80/wh7f454c46tw205505165_733643305/ott.mobaibox.com/PLTV/3/224/3221227393/index.m3u8?icpid=3&RTS=1674380320&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
 浙江卫视,http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw1197826796_-265147758/ott.mobaibox.com/PLTV/3/224/3221227491/index.m3u8?icpid=3&RTS=1669699798&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
 浙江卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
@@ -480,7 +456,6 @@ EZTV6台,http://vvlive.eztv.vip:80/huawen6/huawen6.m3u8?auth_key=1660814676-0-0-
 延边卫视,http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
 深圳卫视,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8?
 山东卫视,http://111.20.35.103:6610/000000001000/1000000001000012807/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012807&livemode=1&stbId=00
-河北卫视,http://111.20.35.103:6610/000000001000/1000000002000017118/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017118&livemode=1&stbId=00
 内蒙古卫视,http://111.20.35.103:6610/000000001000/5559214655508729688/index.m3u8?channel-id=ystenlive&Contentid=5559214655508729688&livemode=1&stbId=00
 新疆卫视,http://111.20.35.103:6610/000000001000/5802765535081445534/index.m3u8?channel-id=ystenlive&Contentid=5802765535081445534&livemode=1&stbId=00
 西藏卫视,http://111.20.35.103:6610/000000001000/6603041244077933770/index.m3u8?channel-id=ystenlive&Contentid=6603041244077933770&livemode=1&stbId=00
