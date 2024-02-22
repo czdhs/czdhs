@@ -56,7 +56,7 @@
     },
     {
       "key": "一青叶我_开心玩偶",
-      "name": "❤️开心🍹臻享4K",
+      "name": "❤️开心┃臻享4K",
       "type": 3,
       "api": "csp_XYQHikerAL",
       "jar": "./lib/dongchen.jar",
@@ -67,7 +67,7 @@
     },
     {
       "key": "csp_XYQHikerAL_土豆",
-      "name": "❤️土豆🥔臻享4K",
+      "name": "❤️土豆┃臻享4K",
       "type": 3,
       "api": "csp_XYQHikerAL",
       "jar": "./lib/dongchen.jar",
@@ -75,6 +75,18 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/tudou.json"
+    },
+    {
+      "key": "地瓜",
+      "name": "❤️地瓜┃超清",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/xiaohu.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/api.php/app/"
     },
     {
       "key": "csp_Nmys",
@@ -319,6 +331,49 @@
         "其他片",
         "体育赛事",
         "海外剧"
+      ]
+    },
+    {
+      "key": "乐视采集",
+      "name": "❤️乐视|蓝光",
+      "type": 1,
+      "playerType": 2,
+      "searchable": 1,
+      "api": "https://leshizyapi.com/api.php/provide/vod/at/json",
+      "jar": "./lib/dongchen.jar",
+      "playUrl": "",
+      "categories": [
+        "国产剧",
+        "韩国剧",
+        "泰国剧",
+        "欧美剧",
+        "香港剧",
+        "台湾剧",
+        "短剧",
+        "日剧",
+        "海外剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫",
+        "电影解说",
+        "动作片",
+        "冒险片",
+        "动画片",
+        "喜剧片",
+        "爱情片",
+        "奇幻片",
+        "灾难片",
+        "悬疑片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "犯罪片",
+        "其他片"
       ]
     },
     {
