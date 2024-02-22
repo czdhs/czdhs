@@ -90,7 +90,7 @@
     },
     {
       "key": "csp_duoju",
-      "name": "❤️多剧🕌影院┃秒播",
+      "name": "❤️多剧🕌影院",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/dongchen.jar",
@@ -133,8 +133,8 @@
       "ext": "./json/cokemv.json"
     },
     {
-      "key": "❤️胖虎影视",
-      "name": "胖虎🐯影视",
+      "key": "胖虎影视",
+      "name": "❤️胖虎🐯影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/dongchen.jar",
