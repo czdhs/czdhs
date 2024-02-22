@@ -52,29 +52,29 @@
         "server": "https://4k.ysctv.cn/api.php/app/",
         "mackey": "yingshichetvQ4Zi|PHRBxdt7PppocRJ5"
       },
-      "jar": "./lib/lvdou.jar"
+      "jar": "./jar/lvdou.jar"
     },
     {
       "key": "一青叶我_开心玩偶",
       "name": "❤️开心┃臻享4K",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/dongchen.jar",
+      "jar": "./jar/dongchen.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/kaixinwogg.json"
+      "ext": "./json/kaixinwogg.json"
     },
     {
       "key": "csp_XYQHikerAL_土豆",
       "name": "❤️土豆┃臻享4K",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/dongchen.jar",
+      "jar": "./jar/dongchen.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/tudou.json"
+      "ext": "./json/tudou.json"
     },
     {
       "key": "地瓜",
@@ -87,6 +87,61 @@
       "filterable": 1,
       "changeable": 0,
       "ext": "https://www.qiqiguai.cn/api.php/app/"
+    },
+    {
+      "key": "csp_duoju",
+      "name": "❤️多剧🕌影院┃秒播",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/dongchen.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/duojuys.json"
+    },
+    {
+      "key": "厂长",
+      "name": "❤️厂长┃超清",
+      "type": 3,
+      "api": "./js/drpy.min.js",
+      "jar": "./jar/dongchen.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./js/cangzan.js"
+    },
+    {
+      "key": "meowtv_syys",
+      "name": "❤️速映🐨影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/spider1.png",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/suying.json"
+    },
+    {
+      "key": "COKEMV影院",
+      "name": "❤️可乐🥤观影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/dongchen.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/cokemv.json"
+    },
+    {
+      "key": "❤️胖虎影视",
+      "name": "胖虎🐯影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/dongchen.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/panghuys.json"
     },
     {
       "key": "csp_Nmys",
@@ -340,7 +395,7 @@
       "playerType": 2,
       "searchable": 1,
       "api": "https://leshizyapi.com/api.php/provide/vod/at/json",
-      "jar": "./lib/dongchen.jar",
+      "jar": "./jar/dongchen.jar",
       "playUrl": "",
       "categories": [
         "国产剧",
