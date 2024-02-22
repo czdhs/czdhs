@@ -55,6 +55,16 @@
       "jar": "./lib/lvdou.jar"
     },
     {
+      "key": "一青叶我_开心玩偶",
+      "name": "❤️开心🍹臻享4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/kaixinwogg.json"
+    },
+    {
       "key": "csp_Nmys",
       "name": "❤️农民影視┃秒播",
       "type": 3,
