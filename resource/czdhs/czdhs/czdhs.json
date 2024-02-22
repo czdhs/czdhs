@@ -59,6 +59,7 @@
       "name": "❤️开心🍹臻享4K",
       "type": 3,
       "api": "csp_XYQHikerAL",
+      "jar": "./lib/dongchen.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
