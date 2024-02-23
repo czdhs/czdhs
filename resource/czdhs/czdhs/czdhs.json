@@ -43,15 +43,6 @@
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
     {
-      "key": "Buleitv",
-      "name": "❤️布蕾TV┃App",
-      "type": 3,
-      "api": "csp_Buleitv",
-      "jar": "./jar/追忆影探布蕾带自动追踪.jar",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "Yingtantv",
       "name": "❤️影探TV┃App",
       "type": 3,
@@ -92,38 +83,13 @@
       "ext": "./json/tudou.json"
     },
     {
-      "key": "地瓜",
-      "name": "❤️地瓜┃超清",
+      "key": "csp_Czzy",
+      "name": "❤️厂长|蓝光",
       "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "./jar/xiaohu.jar",
+      "api": "csp_Czzy",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "changeable": 0,
-      "ext": "https://www.qiqiguai.cn/api.php/app/"
-    },
-    {
-      "key": "csp_duoju",
-      "name": "❤️多剧🕌影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/dongchen.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/duojuys.json"
-    },
-    {
-      "key": "厂长",
-      "name": "❤️厂长┃超清",
-      "type": 3,
-      "api": "./js/drpy.min.js",
-      "jar": "./jar/dongchen.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "./js/cangzan.js"
+      "jar": "./jar/cangzan.jar"
     },
     {
       "key": "meowtv_syys",
