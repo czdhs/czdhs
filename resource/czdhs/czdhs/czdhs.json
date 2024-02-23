@@ -137,6 +137,59 @@
       "ext": "./json/suying.json"
     },
     {
+      "key": "星奇",
+      "name": "❤️星奇┃App",
+      "type": 3,
+      "api": "csp_AppMao",
+      "jar": "./jar/fty.jar",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
+    },
+    {
+      "key": "csp_Bttoo",
+      "name": "❤️比特┃直连",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "jar": "./jar/fty.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Auete",
+      "name": "❤️奥特┃直连",
+      "type": 3,
+      "api": "csp_Auete",
+      "jar": "./jar/fty.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://auete.pro/"
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "❤️动漫┃巴士",
+      "type": 3,
+      "api": "csp_Dm84",
+      "jar": "./jar/fty.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Anime1",
+      "name": "❤️日本┃动漫",
+      "type": 3,
+      "api": "csp_Anime1",
+      "jar": "./jar/fty.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "COKEMV影院",
       "name": "❤️可乐🥤观影",
       "type": 3,
@@ -950,18 +1003,8 @@
       "ext": "./lib/58动漫.js"
     },
     {
-      "key": "csp_动漫巴士",
-      "name": "❤️爱动漫┃巴士",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/动漫巴士.json"
-    },
-    {
       "key": "dr_兔小贝",
-      "name": "❤️教育区┃启蒙",
+      "name": "❤️少儿┃启蒙",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/兔小贝.js",
@@ -975,9 +1018,10 @@
     },
     {
       "key": "少儿教育",
-      "name": "❤️教育区┃儿童",
+      "name": "❤️少儿┃教育",
       "type": 3,
       "api": "csp_Bili",
+      "jar": "./jar/fty.jar",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -985,13 +1029,14 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/少儿教育.json"
+      "ext": "./json/少儿教育.json"
     },
     {
       "key": "小学课堂",
-      "name": "❤️教育区┃小学",
+      "name": "❤️小学┃课堂",
       "type": 3,
       "api": "csp_Bili",
+      "jar": "./jar/fty.jar",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -999,13 +1044,14 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/小学课堂.json"
+      "ext": "./json/小学课堂.json"
     },
     {
       "key": "初中课堂",
-      "name": "❤️教育区┃初中",
+      "name": "❤️初中┃课堂",
       "type": 3,
       "api": "csp_Bili",
+      "jar": "./jar/fty.jar",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -1013,13 +1059,14 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/初中课堂.json"
+      "ext": "./json/初中课堂.json"
     },
     {
       "key": "高中教育",
-      "name": "❤️教育区┃高中",
+      "name": "❤️高中┃课堂",
       "type": 3,
       "api": "csp_Bili",
+      "jar": "./jar/fty.jar",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -1027,7 +1074,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/高中课堂.json"
+      "ext": "./json/高中课堂.json"
     },
     {
       "key": "影探",
@@ -1057,6 +1104,17 @@
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd"
     },
     {
+      "key": "PanSearch",
+      "name": "❤️盘Se4K┃搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "jar": "./jar/fty.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd"
+    },
+    {
       "key": "UpYun",
       "name": "❤️Up搜4K┃搜索",
       "type": 3,
@@ -1077,8 +1135,52 @@
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd"
     },
     {
+      "key": "Aid",
+      "name": "🚑急救┃教学",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "jar": "./jar/fty.jar",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      }
+    },
+    {
+      "key": "Bili",
+      "name": "🅱哔哔┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./jar/fty.jar",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./json/bilibili.json"
+    },
+    {
+      "key": "Biliych",
+      "name": "🅱明星┃演唱会",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./jar/fty.jar",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./json/biliych.json"
+    },
+    {
       "key": "ext_live_protocol",
-      "name": "❤️导航 http://tvkj.top",
+      "name": "❤️茶吖推荐导航",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
