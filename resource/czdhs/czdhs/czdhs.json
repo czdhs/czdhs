@@ -72,6 +72,29 @@
       "ext": "./json/kaixinwogg.json"
     },
     {
+      "key": "csp_XYQHikerAL_阿里苏苏",
+      "name": "❤️苏苏┃臻享4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "./jar/xyqwogg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/alisusu.json"
+    },
+    {
+      "key": "玩偶PG",
+      "name": "❤️玩偶|蓝光4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "./jar/PG.jar",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./json/PG推送.json$$$https://wogg.xyz/$$$null$$$1$$$./json/wogg.json"
+    },
+    {
       "key": "csp_XYQHikerAL_土豆",
       "name": "❤️土豆┃臻享4K",
       "type": 3,
@@ -90,6 +113,17 @@
       "searchable": 1,
       "changeable": 0,
       "jar": "./jar/cangzan.jar"
+    },
+    {
+      "key": "新视觉影院",
+      "name": "❤️视觉影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/dongchen.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/xinshijue.json"
     },
     {
       "key": "meowtv_syys",
@@ -1010,7 +1044,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|auto|fhd"
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd"
     },
     {
       "key": "PanSou",
