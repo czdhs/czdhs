@@ -43,16 +43,31 @@
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
     {
-      "key": "影视车®APP",
-      "name": "❤️影视车®APP",
+      "key": "Buleitv",
+      "name": "❤️布蕾TV┃App",
       "type": 3,
-      "api": "csp_LvDou",
-      "playerType": 1,
-      "ext": {
-        "server": "https://4k.ysctv.cn/api.php/app/",
-        "mackey": "yingshichetvQ4Zi|PHRBxdt7PppocRJ5"
-      },
-      "jar": "./jar/lvdou.jar"
+      "api": "csp_Buleitv",
+      "jar": "./jar/追忆影探布蕾带自动追踪.jar",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Yingtantv",
+      "name": "❤️影探TV┃App",
+      "type": 3,
+      "api": "csp_Yingtantv2",
+      "jar": "./jar/追忆影探布蕾带自动追踪.jar",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Zhuiyitv",
+      "name": "❤️追忆TV┃App",
+      "type": 3,
+      "api": "csp_Zhuiyitv",
+      "jar": "./jar/追忆影探布蕾带自动追踪.jar",
+      "searchable": 1,
+      "changeable": 0
     },
     {
       "key": "一青叶我_开心玩偶",
@@ -142,6 +157,18 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/panghuys.json"
+    },
+    {
+      "key": "影视车®APP",
+      "name": "❤️影视车®APP",
+      "type": 3,
+      "api": "csp_LvDou",
+      "playerType": 1,
+      "ext": {
+        "server": "https://4k.ysctv.cn/api.php/app/",
+        "mackey": "yingshichetvQ4Zi|PHRBxdt7PppocRJ5"
+      },
+      "jar": "./jar/lvdou.jar"
     },
     {
       "key": "csp_Nmys",
