@@ -1003,20 +1003,6 @@
       "ext": "./lib/58动漫.js"
     },
     {
-      "key": "dr_兔小贝",
-      "name": "❤️少儿┃启蒙",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/兔小贝.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "少儿教育",
       "name": "❤️少儿┃教育",
       "type": 3,
