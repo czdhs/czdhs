@@ -235,6 +235,23 @@
       "jar": "./jar/lvdou.jar"
     },
     {
+      "key": "宇宙",
+      "name": "宇宙4K",
+      "type": 3,
+      "api": "csp_LvDou",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "playerType": 1,
+      "ext": {
+        "server": "http://ds1.yuzhoukeji.top/api.php/app/",
+        "mackey": "btC11NMbhWho2LsL|vZfPqkHE71Epi167",
+        "danmu": true
+      },
+      "jar": "./jar/lvdou.jar"
+    },
+    {
       "key": "csp_Nmys",
       "name": "❤️农民影視┃秒播",
       "type": 3,
