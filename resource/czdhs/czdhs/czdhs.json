@@ -260,6 +260,26 @@
       "jar": "./jar/lvdou.jar"
     },
     {
+      "key": "xh",
+      "name": "❤️小胡4K",
+      "type": 1,
+      "playerType": 3,
+      "api": "http://cc.xzam.cn/api.php/provide/vod/",
+      "jar": "./jar/Tong.jar",
+      "playUrl": ""
+    },
+    {
+      "key": "Fangniu4k",
+      "name": "❤️放牛4K",
+      "type": 3,
+      "api": "csp_Fangniu4k",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "jar": "./jar/fnw.jar"
+    },
+    {
       "key": "csp_Nmys",
       "name": "❤️农民影視┃秒播",
       "type": 3,
