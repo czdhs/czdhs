@@ -245,8 +245,8 @@
       "timeout": 30,
       "playerType": 1,
       "ext": {
-        "server": "http://ds1.yuzhoukeji.top/api.php/app/",
-        "mackey": "btC11NMbhWho2LsL|vZfPqkHE71Epi167",
+        "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
+        "mackey": "toudongxidegou88|qunimagebishabib",
         "danmu": true
       },
       "jar": "./jar/lvdou.jar"
