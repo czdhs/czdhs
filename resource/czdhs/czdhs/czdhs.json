@@ -269,6 +269,17 @@
       "playUrl": ""
     },
     {
+      "key": "csp_XYQHiker_freeok",
+      "name": "❤️freeok影视",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/0125.jar",
+      "ext": "./json/freeok.json"
+    },
+    {
       "key": "Fangniu4k",
       "name": "❤️放牛4K",
       "type": 3,
