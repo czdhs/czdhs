@@ -159,18 +159,6 @@
       "ext": "./json/suying.json"
     },
     {
-      "key": "星奇",
-      "name": "❤️星奇",
-      "type": 3,
-      "api": "csp_AppMao",
-      "jar": "./jar/fty.jar",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
-    },
-    {
       "key": "csp_Bttoo",
       "name": "❤️比特",
       "type": 3,
@@ -294,6 +282,38 @@
       "jar": "./jar/fnw.jar"
     },
     {
+      "key": "T4-安博",
+      "name": "❤️安博T4",
+      "type": 4,
+      "api": "https://tang.serv00.net/power/ub1818",
+      "jar": "./jar/fnw.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": true
+    },
+    {
+      "key": "影视仓",
+      "name": "❤️影视饭超清",
+      "type": 3,
+      "api": "csp_AppMr",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/0819.jar;md5;380A08E7735A86D85AAA24E9A1C77AF3"
+    },
+    {
+      "key": "蓝光",
+      "name": "❤️蓝光影视",
+      "type": 1,
+      "api": "http://vipcom.xn--654a.cc/api.php/provide/vod/",
+      "jar": "./jar/Tong.jar",
+      "playUrl": "json:http://json.xn--654a.cc/home/api?type=ys&uid=1323246&key=dfiopqzEHJKNOPSTY5&url=",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "csp_Nmys",
       "name": "❤️农民影視",
       "type": 3,
@@ -304,11 +324,35 @@
       "jar": "./lib/nm4k.jar"
     },
     {
-      "key": "drpy_js_秋霞影院",
-      "name": "❤️秋霞2k",
+      "key": "咕噜",
+      "name": "❤️咕噜影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/秋霞.js"
+      "api": "csp_Movie2",
+      "ext": "./lib/Movie5.json",
+      "jar": "./jar/wyog.php"
+    },
+    {
+      "key": "地瓜",
+      "name": "❤️地瓜超清",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/xiaohu.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/api.php/app/"
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "玩偶4K-备",
+      "type": 3,
+      "jar": "./jar/fan.txt;md5;82a31f7dab4c0eb89a46584f3934d810",
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "2db1bf66ed124441bf957cc8e09fbcc1+auto|4k|fhd$$$https://www.wogg.xyz/$$$弹"
     },
     {
       "key": "南瓜",
