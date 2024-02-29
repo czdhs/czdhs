@@ -899,6 +899,24 @@
       "changeable": 0
     },
     {
+      "key": "Yinyuetai",
+      "name": "❤️音悦台┃音乐┃MV",
+      "type": 3,
+      "api": "csp_Yinyuetai",
+      "searchable": 1,
+      "jar": "./jar/二小.jar",
+      "changeable": 0
+    },
+    {
+      "key": "Fangniu4k",
+      "name": "❤️放牛TV┃App",
+      "type": 3,
+      "api": "csp_Fangniu4k",
+      "searchable": 1,
+      "jar": "./jar/二小.jar",
+      "changeable": 0
+    },
+    {
       "key": "csp_XPath_企鹅体育",
       "name": "❤️企鹅官┃体育",
       "type": 3,
