@@ -43,17 +43,6 @@
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
     {
-      "key": "csp_appys_影盒",
-      "name": "❤️影探主接口",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "./jar/094b4d3625d42893f683cc2e95311153.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://vip-cms.lyyytv.cn/api.php/app/"
-    },
-    {
       "key": "csp_XYQHiker_素白白影视",
       "name": "❤️素白影视",
       "type": 3,
@@ -70,7 +59,7 @@
       "name": "❤️FreeOK超清",
       "type": 3,
       "api": "csp_CandyMuj_freeok",
-      "jar": "。/jar/candymuj.jar;md5;bb7b588c9df16c7b9d743cc4763012b2",
+      "jar": "./jar/candymuj.jar;md5;bb7b588c9df16c7b9d743cc4763012b2",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1
