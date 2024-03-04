@@ -965,6 +965,15 @@
       "changeable": 0
     },
     {
+      "key": "Iktv",
+      "name": "❤️KTV音乐MV",
+      "type": 3,
+      "api": "csp_Iktv",
+      "jar": "./jar/二小.jar",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
       "key": "Fangniu4k",
       "name": "❤️放牛TV",
       "type": 3,
