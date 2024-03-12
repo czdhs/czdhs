@@ -265,19 +265,6 @@
       "jar": "./lib/nm4k.jar"
     },
     {
-      "key": " 2077 ",
-      "name": "❤️2077影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.m2077.com/vod-show/{cateId}--{by}------{catePg}---/",
-        "茶吖推荐": ""
-      }
-    },
-    {
       "key": "地瓜",
       "name": "❤️地瓜超清",
       "type": 3,
