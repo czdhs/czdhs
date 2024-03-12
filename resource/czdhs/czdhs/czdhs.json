@@ -33,6 +33,16 @@
       "jar": "./lib/阿里设置.txt"
     },
     {
+      "key": "csp_KungFu404",
+      "name": "❤️Open原画┃设置",
+      "type": 3,
+      "api": "csp_KungFu404",
+      "jar": "./jar/alibaba.jar",
+      "searchable": 0,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|fhd|auto"
+    },
+    {
       "key": "玩偶哥哥",
       "name": "❤️玩偶4K",
       "type": 3,
@@ -41,6 +51,16 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/czdhs/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
+    },
+    {
+      "key": "csp_XYQHikerAL_玩偶哥哥",
+      "name": "❤️玩偶臻享4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/woggzx.json"
     },
     {
       "key": "csp_XYQHiker_素白白影视",
@@ -63,6 +83,17 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1
+    },
+    {
+      "key": "csp_XYQHikerAL_影视车弟弟",
+      "name": "❤️影视车4K",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "./jar/xyqwogg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/yingshiche.json"
     },
     {
       "key": "虎虎",
@@ -263,6 +294,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "jar": "./lib/nm4k.jar"
+    },
+    {
+      "key": "csp_Kuaikan",
+      "name": "❤️快看直连",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "jar": "./jar/PandaQ240216.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "地瓜",
