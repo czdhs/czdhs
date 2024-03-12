@@ -159,17 +159,6 @@
       "changeable": 1
     },
     {
-      "key": "Auete",
-      "name": "❤️奥特",
-      "type": 3,
-      "api": "csp_Auete",
-      "jar": "./jar/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://auete.pro/"
-    },
-    {
       "key": "csp_Dm84",
       "name": "❤️动漫巴士",
       "type": 3,
@@ -224,23 +213,6 @@
       "jar": "./jar/lvdou.jar"
     },
     {
-      "key": "宇宙",
-      "name": "❤️宇宙4K",
-      "type": 3,
-      "api": "csp_LvDou",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "playerType": 1,
-      "ext": {
-        "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebishabib",
-        "danmu": true
-      },
-      "jar": "./jar/lvdou.jar"
-    },
-    {
       "key": "xh",
       "name": "❤️小胡4K",
       "type": 1,
@@ -261,17 +233,6 @@
       "ext": "./json/freeok.json"
     },
     {
-      "key": "Fangniu4k",
-      "name": "❤️放牛4K",
-      "type": 3,
-      "api": "csp_Fangniu4k",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "jar": "./jar/fnw.jar"
-    },
-    {
       "key": "T4-安博",
       "name": "❤️安博T4",
       "type": 4,
@@ -282,16 +243,6 @@
       "filterable": 1,
       "changeable": 0,
       "ext": true
-    },
-    {
-      "key": "影视仓",
-      "name": "❤️影视饭超清",
-      "type": 3,
-      "api": "csp_AppMr",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/0819.jar;md5;380A08E7735A86D85AAA24E9A1C77AF3"
     },
     {
       "key": "蓝光",
@@ -312,14 +263,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "jar": "./lib/nm4k.jar"
-    },
-    {
-      "key": "咕噜",
-      "name": "❤️咕噜影视",
-      "type": 3,
-      "api": "csp_Movie2",
-      "ext": "./lib/Movie5.json",
-      "jar": "./jar/wyog.php"
     },
     {
       "key": "地瓜",
