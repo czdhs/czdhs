@@ -163,6 +163,72 @@
       "ext": "./json/tudou.json"
     },
     {
+      "key": "星辰影院",
+      "name": "星辰影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/sglt.jar",
+      "ext": {
+        "分类url": "https://www.sccd.net/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电视剧$dsj#电影$by"
+      }
+    },
+    {
+      "key": "华人影院",
+      "name": "华人影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/sglt.jar",
+      "ext": {
+        "分类url": "https://www.hdvod.cc/vod/filter/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电视剧$drama#电影$movie"
+      }
+    },
+    {
+      "key": "海兔影院",
+      "name": "海兔影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/sglt.jar",
+      "ext": {
+        "分类url": "https://www.haituu.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电视剧$2#电影$1#综艺$3"
+      }
+    },
+    {
+      "key": "csp_吃瓜影视",
+      "name": "吃瓜影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/sglt.jar",
+      "ext": {
+        "站名": "吃瓜影视",
+        "主页url": "https://www.chiguafilm.com/",
+        "链接": "/index.php/vod/play/+/detail/&&.html+/sid/1/nid/1.html",
+        "分类": "电影$1#连续剧$2#综艺$3#动漫$4#普通$35",
+        "分类url": "https://www.chiguafilm.com/index.php/vod/show/area/{area}/by/time/id/{cateId}/page/{catePg}/year/{year}.html;;k"
+      }
+    },
+    {
+      "key": "毒舌电影",
+      "name": "毒舌电影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "图片": "https://res.vukfnqr.com+data-original=\"&&\"",
+        "副标题": "v-item-bottom\"><span>&&</span>",
+        "简介": "detail-desc\">&&</p >",
+        "线路数组": "class=\"swiper-slide source-swiper-slide&&</div>",
+        "线路标题": ">&&</span>",
+        "搜索url": "https://www.dushe1.app/search?k={wd}",
+        "分类url": "https://www.dushe1.app/show/{cateId}-{class}-{area}-{lang}-{year}-{by}-{catePg}.html[https://www.dushe1.app/channel/{cateId}.html]",
+        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6"
+      }
+    },
+    {
       "key": "csp_Czzy",
       "name": "❤️厂长",
       "type": 3,
