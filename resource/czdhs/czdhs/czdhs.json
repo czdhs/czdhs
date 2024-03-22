@@ -164,7 +164,7 @@
     },
     {
       "key": "星辰影院",
-      "name": "星辰影院",
+      "name": "❤️星辰影院",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/sglt.jar",
@@ -175,7 +175,7 @@
     },
     {
       "key": "华人影院",
-      "name": "华人影院",
+      "name": "❤️华人影院",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/sglt.jar",
@@ -186,7 +186,7 @@
     },
     {
       "key": "海兔影院",
-      "name": "海兔影院",
+      "name": "❤️海兔影院",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/sglt.jar",
@@ -197,7 +197,7 @@
     },
     {
       "key": "csp_吃瓜影视",
-      "name": "吃瓜影院",
+      "name": "❤️吃瓜影院",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/sglt.jar",
@@ -211,7 +211,8 @@
     },
     {
       "key": "毒舌电影",
-      "name": "毒舌电影",
+      "name": "❤️毒舌电影",
+      "jar": "./jar/sglt.jar",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -227,6 +228,17 @@
         "分类url": "https://www.dushe1.app/show/{cateId}-{class}-{area}-{lang}-{year}-{by}-{catePg}.html[https://www.dushe1.app/channel/{cateId}.html]",
         "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6"
       }
+    },
+    {
+      "key": "阿里云集合",
+      "name": "❤️阿里云集合4K",
+      "type": 3,
+      "api": "csp_阿里云集合",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": "./json/阿里集合.json;./json/tokenm.json",
+      "jar": "./jar/真心真语0204.jar"
     },
     {
       "key": "csp_Czzy",
