@@ -212,9 +212,9 @@
     {
       "key": "毒舌电影",
       "name": "❤️毒舌电影",
-      "jar": "./jar/sglt.jar",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/sglt.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
