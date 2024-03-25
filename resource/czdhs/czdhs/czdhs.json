@@ -230,6 +230,36 @@
       }
     },
     {
+      "ext": "eyJhcGkiOiJodHRwOi8vNDcuMTIwLjM3LjE3NTo0NTY3IiwidG9rZW4iOiIifQ==",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "❤️丫仙女",
+      "changeable": 0,
+      "jar": "./jar/spring.jar",
+      "style": {
+        "type": "rect"
+      },
+      "api": "csp_XiaoYa",
+      "type": 3,
+      "key": "csp_XiaoYa",
+      "searchable": 1
+    },
+    {
+      "ext": "eyJhcGkiOiJodHRwOi8vNDcuMTIwLjM3LjE3NTo0NTY3IiwidG9rZW4iOiIifQ==",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "❤️AList",
+      "changeable": 0,
+      "jar": "./jar/spring.jar",
+      "style": {
+        "type": "rect"
+      },
+      "api": "csp_AList",
+      "type": 3,
+      "key": "csp_AList",
+      "searchable": 1
+    },
+    {
       "key": "阿里云集合",
       "name": "❤️阿里云集合4K",
       "type": 3,
