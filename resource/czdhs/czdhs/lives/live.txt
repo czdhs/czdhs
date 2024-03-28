@@ -2925,6 +2925,11 @@ CCTV16,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/32212269
 CNA频道,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 欧洲华02,http://vvlive.eztv.vip/huawen2/huawen2.m3u8?auth_key=1661418936-0-0-bc9f000c6daa2def0b71d5389778b0d3
 欧洲华06,http://vvlive.eztv.vip/huawen6/huawen6.m3u8?auth_key=1660814676-0-0-4d45d97f017e545dd368719f8dd48ffe
+惊艳台频道, https://18.svi-studio.com/live/673960949860/294164781253/1.m3u8
+潘多拉频道, https://18.svi-studio.com/live/673960949860/294164781253/3.m3u8
+香蕉台频道, https://18.svi-studio.com/live/673960949860/294164781253/4.m3u8
+松视1频道, https://18.svi-studio.com/live/673960949860/294164781253/5.m3u8
+松视2频道, https://18.svi-studio.com/live/673960949860/294164781253/6.m3u8
 
 电影轮播,#genre#
 电影_星爷,http://cfss.cc/cdn/hy/11342412.flv
