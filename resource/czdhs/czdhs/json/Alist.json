@@ -1,0 +1,20 @@
+{
+  "drives": [
+    {
+      "name": "❤️小雅网盘",
+      "server": "http://124.70.137.72:5678/"
+    },
+    {
+      "name": "❤️环宇轩",
+      "server": "https://pan.mediy.cn/"
+    },
+    {
+      "name": "❤️资源小站",
+      "server": "https://pan.ecve.cn/"
+    },
+    {
+      "name": "茶吖推荐”",
+      "server": "https://al.chirmyram.com/"
+    }
+  ]
+}
