@@ -217,6 +217,20 @@
       "filterable": 1
     },
     {
+      "key": " 薰衣草",
+      "name": "❤️薰衣草",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://xunyic.cc/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+        "茶吖推荐": ""
+      }
+    },
+    {
       "key": "网飞猫影视",
       "name": "❤️网飞猫",
       "type": 3,
