@@ -244,6 +244,13 @@
       }
     },
     {
+      "key": "drpy_js_4k剧院",
+      "name": "❤️4k剧院",
+      "type": 3,
+      "api": "./js/drpy3.min.js",
+      "ext": "./js/4k剧院.js"
+    },
+    {
       "key": "一起看 ",
       "name": "❤️一起看",
       "type": 3,
