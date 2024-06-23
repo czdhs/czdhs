@@ -69,7 +69,7 @@
       "ext": {
         "token": "file://TV/ali_token.txt",
         "cookie": "file://TV/quark_cookie.txt",
-        "site": "https://wogg.xyz",
+        "site": "https://www.wogg.link",
         "danmu": true
       },
       "timeout": 25
@@ -239,7 +239,7 @@
       "ext": {
         "数组": "module-item\">&&</div>",
         "图片": "https://vres.vukfnqr.com+data-original=\"&&\"",
-        "分类url": "https://www.ncat2.com:51111/show/{cateId}-{class}-{area}--{year}-2-{catePg}.html",
+        "分类url": "https://www.ncat2.com/show/{cateId}-{class}-{area}--{year}-2-{catePg}.html",
         "分类": "短剧$6#电影$1#电视剧$2#综艺$4#动漫$3"
       }
     },
